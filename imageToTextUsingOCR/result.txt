@@ -1,0 +1,16 @@
+
+--- Page 1 ---
+ Experiment#1
+Setting Information
+4 Fluorescentt
+Ex, Auto Cutoff, Em
+Lm1
+A A2 0.5 Std Ae 10 Std
+4 PMT and Optics
+25.544 2356.2 4613.0
+Auto
+Reduted: 25 544 Reducd: 23562 Reduced: 4613.0
+E Flashes/reard
+Data: 03-Feb-2025 10:11 0ata: 03-Fet-2025 10:12 Data: 03-Feb-2025 10:13
+Ret: No Reference Ref No Pe
+ ************* Trial Licenses ************* 

@@ -1,0 +1,14 @@
+Settings Information                                                   
+Endpoint                                                               
+Fluorescence                                                           
+Ex Auto Cutoff,Em                                                      
+Lm1 365,435,440                                                        
+A1 0.0 Std A2 0.5 Std A3 1.0 Std                                       
+PMT and Optics                                                         
+25.544 2356.2 4613.0 Auto                                              
+Reduced:25.544 Reduced2356.2 Reduced:4613.0                            
+6 Flashes/read                                                         
+Data:03-Feb-2025 10:11 Data: 03-Feb-2025 10:12 Data:03-Feb-2025 10:13  
+RefNo Reference RefN                                                   
+ ************* Trial Licenses *************                            
+

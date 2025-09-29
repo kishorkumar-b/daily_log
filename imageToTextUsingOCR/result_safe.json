@@ -1,0 +1,3397 @@
+[
+ {
+  "Areas": [ ],
+  "CharactersWithReplacements": [
+   {
+    "Character": "E",
+    "Replacements": [
+     "e",
+     "C",
+     "F",
+     "3"
+    ]
+   },
+   {
+    "Character": "x",
+    "Replacements": [
+     "X",
+     "c",
+     " ",
+     "v"
+    ]
+   },
+   {
+    "Character": "o",
+    "Replacements": [
+     "p",
+     "a",
+     "s",
+     "d"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "c",
+     "o",
+     "a",
+     "r"
+    ]
+   },
+   {
+    "Character": "n",
+    "Replacements": [
+     "r",
+     "N",
+     "h",
+     "m"
+    ]
+   },
+   {
+    "Character": "m",
+    "Replacements": [
+     " ",
+     "n",
+     "M",
+     "u"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "c",
+     "o",
+     "a",
+     "r"
+    ]
+   },
+   {
+    "Character": "r",
+    "Replacements": [
+     "n",
+     "t",
+     "c",
+     "P"
+    ]
+   },
+   {
+    "Character": "S",
+    "Replacements": [
+     "s",
+     "C",
+     "A",
+     "N"
+    ]
+   },
+   {
+    "Character": "o",
+    "Replacements": [
+     "e",
+     "a",
+     "u",
+     "s"
+    ]
+   },
+   {
+    "Character": "s",
+    "Replacements": [
+     "t",
+     "r",
+     "n",
+     "c"
+    ]
+   },
+   {
+    "Character": "t",
+    "Replacements": [
+     "c",
+     "e",
+     "i",
+     "d"
+    ]
+   },
+   {
+    "Character": "i",
+    "Replacements": [
+     "l",
+     "t",
+     "h",
+     "e"
+    ]
+   },
+   {
+    "Character": "n",
+    "Replacements": [
+     "a",
+     "e",
+     "o",
+     "u"
+    ]
+   },
+   {
+    "Character": "g",
+    "Replacements": [
+     "e",
+     "t",
+     "i",
+     "G"
+    ]
+   },
+   {
+    "Character": "s",
+    "Replacements": [
+     "e",
+     "g",
+     "a",
+     "n"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "s",
+     "t",
+     "i",
+     "S"
+    ]
+   },
+   {
+    "Character": "I",
+    "Replacements": [
+     "i",
+     "t",
+     "A",
+     "f"
+    ]
+   },
+   {
+    "Character": "M",
+    "Replacements": [
+     "m",
+     "t",
+     "a",
+     "d"
+    ]
+   },
+   {
+    "Character": "r",
+    "Replacements": [
+     "n",
+     "m",
+     "v",
+     "w"
+    ]
+   },
+   {
+    "Character": "n",
+    "Replacements": [
+     "m",
+     "u",
+     "w",
+     "a"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "a",
+     "o",
+     "s",
+     "i"
+    ]
+   },
+   {
+    "Character": "t",
+    "Replacements": [
+     "i",
+     "b",
+     "e",
+     "u"
+    ]
+   },
+   {
+    "Character": "a",
+    "Replacements": [
+     "e",
+     "o",
+     "i",
+     "u"
+    ]
+   },
+   {
+    "Character": "n",
+    "Replacements": [
+     "a",
+     "e",
+     "m",
+     " "
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "g",
+     "i",
+     "e",
+     "I"
+    ]
+   },
+   {
+    "Character": "E",
+    "Replacements": [
+     "t",
+     "e",
+     "f",
+     "F"
+    ]
+   },
+   {
+    "Character": "n",
+    "Replacements": [
+     "r",
+     "N",
+     "o",
+     "m"
+    ]
+   },
+   {
+    "Character": "d",
+    "Replacements": [
+     "a",
+     "t",
+     "g",
+     "i"
+    ]
+   },
+   {
+    "Character": "p",
+    "Replacements": [
+     "o",
+     "7",
+     "i",
+     "y"
+    ]
+   },
+   {
+    "Character": "o",
+    "Replacements": [
+     "a",
+     "0",
+     "e",
+     "O"
+    ]
+   },
+   {
+    "Character": "i",
+    "Replacements": [
+     "r",
+     "I",
+     "u",
+     "l"
+    ]
+   },
+   {
+    "Character": "n",
+    "Replacements": [
+     "m",
+     "0",
+     "r",
+     "N"
+    ]
+   },
+   {
+    "Character": "A",
+    "Replacements": [
+     "4",
+     "S",
+     "a",
+     "s"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "Y",
+     "I",
+     "T",
+     "y"
+    ]
+   },
+   {
+    "Character": "H",
+    "Replacements": [
+     "A",
+     "f",
+     "R",
+     "N"
+    ]
+   },
+   {
+    "Character": "u",
+    "Replacements": [
+     "U",
+     "o",
+     "O",
+     "e"
+    ]
+   },
+   {
+    "Character": "n",
+    "Replacements": [
+     "r",
+     "b",
+     "t",
+     "N"
+    ]
+   },
+   {
+    "Character": "N",
+    "Replacements": [
+     "n",
+     "M",
+     "W",
+     "w"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "C",
+     "c",
+     "E",
+     "G"
+    ]
+   },
+   {
+    "Character": "M",
+    "Replacements": [
+     "m",
+     "n",
+     "N",
+     "a"
+    ]
+   },
+   {
+    "Character": "K",
+    "Replacements": [
+     "k",
+     "x",
+     "r",
+     "i"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "E",
+     "t",
+     "O",
+     "o"
+    ]
+   },
+   {
+    "Character": "E",
+    "Replacements": [
+     "F",
+     "e",
+     "I",
+     "C"
+    ]
+   },
+   {
+    "Character": "x",
+    "Replacements": [
+     "X",
+     "a",
+     "s",
+     "n"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "I",
+     "y",
+     "L",
+     "l"
+    ]
+   },
+   {
+    "Character": "A",
+    "Replacements": [
+     "a",
+     "N",
+     "M",
+     "n"
+    ]
+   },
+   {
+    "Character": "v",
+    "Replacements": [
+     "u",
+     "U",
+     "V",
+     "y"
+    ]
+   },
+   {
+    "Character": "t",
+    "Replacements": [
+     "f",
+     "4",
+     "s",
+     "2"
+    ]
+   },
+   {
+    "Character": "o",
+    "Replacements": [
+     "p",
+     "D",
+     "O",
+     "0"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "s",
+     "i",
+     "e",
+     "I"
+    ]
+   },
+   {
+    "Character": "C",
+    "Replacements": [
+     "c",
+     "G",
+     "O",
+     "L"
+    ]
+   },
+   {
+    "Character": "M",
+    "Replacements": [
+     "u",
+     "U",
+     "W",
+     "v"
+    ]
+   },
+   {
+    "Character": "o",
+    "Replacements": [
+     "O",
+     "c",
+     "e",
+     "0"
+    ]
+   },
+   {
+    "Character": "f",
+    "Replacements": [
+     "t",
+     "r",
+     "H",
+     "n"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "I",
+     "L",
+     "T",
+     "l"
+    ]
+   },
+   {
+    "Character": "E",
+    "Replacements": [
+     "e",
+     "F",
+     "t",
+     "L"
+    ]
+   },
+   {
+    "Character": "m",
+    "Replacements": [
+     "M",
+     "n",
+     "l",
+     "e"
+    ]
+   },
+   {
+    "Character": "m",
+    "Replacements": [
+     "n",
+     "M",
+     "T",
+     "r"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "t",
+     "i",
+     "y",
+     "4"
+    ]
+   },
+   {
+    "Character": "3",
+    "Replacements": [
+     "J",
+     "2",
+     "Z",
+     "4"
+    ]
+   },
+   {
+    "Character": "6",
+    "Replacements": [
+     "5",
+     "8",
+     "0",
+     "9"
+    ]
+   },
+   {
+    "Character": "5",
+    "Replacements": [
+     "s",
+     "S",
+     "3",
+     " "
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "I",
+     "a",
+     "u",
+     "t"
+    ]
+   },
+   {
+    "Character": "4",
+    "Replacements": [
+     "0",
+     "1",
+     " ",
+     "a"
+    ]
+   },
+   {
+    "Character": "3",
+    "Replacements": [
+     "2",
+     "6",
+     "4",
+     "5"
+    ]
+   },
+   {
+    "Character": "5",
+    "Replacements": [
+     "s",
+     "S",
+     "6",
+     "8"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "I",
+     "t",
+     "r",
+     "2"
+    ]
+   },
+   {
+    "Character": "4",
+    "Replacements": [
+     "A",
+     "y",
+     "u",
+     "v"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "1",
+     "6",
+     "4",
+     "2"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "6",
+     "o",
+     "9",
+     "8"
+    ]
+   },
+   {
+    "Character": "M",
+    "Replacements": [
+     "A",
+     "L",
+     "N",
+     "D"
+    ]
+   },
+   {
+    "Character": "Q",
+    "Replacements": [
+     "0",
+     "C",
+     "8",
+     "9"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "i",
+     "I",
+     "e",
+     "E"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "Q",
+     "9",
+     "6",
+     "8"
+    ]
+   },
+   {
+    "Character": "O",
+    "Replacements": [
+     "S",
+     "5",
+     "3",
+     "0"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "S",
+     "N",
+     "A",
+     "s"
+    ]
+   },
+   {
+    "Character": "S",
+    "Replacements": [
+     "s",
+     "O",
+     " ",
+     "C"
+    ]
+   },
+   {
+    "Character": "M",
+    "Replacements": [
+     "N",
+     "H",
+     "m",
+     "e"
+    ]
+   },
+   {
+    "Character": "A",
+    "Replacements": [
+     "S",
+     "B",
+     "C",
+     "N"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "I",
+     "t",
+     "i",
+     "L"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "6",
+     "8",
+     "9",
+     "O"
+    ]
+   },
+   {
+    "Character": "4",
+    "Replacements": [
+     "A",
+     "S",
+     "2",
+     "3"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "Y",
+     "y",
+     "4",
+     "N"
+    ]
+   },
+   {
+    "Character": "P",
+    "Replacements": [
+     "f",
+     "p",
+     "t",
+     "F"
+    ]
+   },
+   {
+    "Character": "M",
+    "Replacements": [
+     "m",
+     "N",
+     "A",
+     "n"
+    ]
+   },
+   {
+    "Character": "T",
+    "Replacements": [
+     "t",
+     "I",
+     "Y",
+     "1"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "y",
+     "S",
+     "Y",
+     "o"
+    ]
+   },
+   {
+    "Character": "s",
+    "Replacements": [
+     "a",
+     "n",
+     "i",
+     "u"
+    ]
+   },
+   {
+    "Character": "m",
+    "Replacements": [
+     "n",
+     "M",
+     "N",
+     "w"
+    ]
+   },
+   {
+    "Character": "f",
+    "Replacements": [
+     "t",
+     "i",
+     "d",
+     "e"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "l",
+     "i",
+     "t",
+     "e"
+    ]
+   },
+   {
+    "Character": "O",
+    "Replacements": [
+     "0",
+     "C",
+     "Q",
+     "D"
+    ]
+   },
+   {
+    "Character": "n",
+    "Replacements": [
+     "R",
+     "a",
+     "p",
+     "A"
+    ]
+   },
+   {
+    "Character": "u",
+    "Replacements": [
+     "U",
+     "a",
+     "o",
+     "e"
+    ]
+   },
+   {
+    "Character": "c",
+    "Replacements": [
+     "C",
+     "e",
+     "E",
+     "G"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "1",
+     "7",
+     "0",
+     "T"
+    ]
+   },
+   {
+    "Character": "5",
+    "Replacements": [
+     " ",
+     "0",
+     "8",
+     "S"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "1",
+     "7",
+     "0",
+     "4"
+    ]
+   },
+   {
+    "Character": "3",
+    "Replacements": [
+     "0",
+     "1",
+     "2",
+     "6"
+    ]
+   },
+   {
+    "Character": "5",
+    "Replacements": [
+     "3",
+     "8",
+     "0",
+     "4"
+    ]
+   },
+   {
+    "Character": "6",
+    "Replacements": [
+     "0",
+     "7",
+     "3",
+     "1"
+    ]
+   },
+   {
+    "Character": "4",
+    "Replacements": [
+     "1",
+     "0",
+     "2",
+     "3"
+    ]
+   },
+   {
+    "Character": "6",
+    "Replacements": [
+     "0",
+     "7",
+     "5",
+     "3"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "0",
+     " ",
+     "7",
+     "4"
+    ]
+   },
+   {
+    "Character": "3",
+    "Replacements": [
+     "0",
+     "1",
+     "o",
+     "2"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "o",
+     "8",
+     "6",
+     "9"
+    ]
+   },
+   {
+    "Character": "A",
+    "Replacements": [
+     "N",
+     "M",
+     "S",
+     "X"
+    ]
+   },
+   {
+    "Character": "u",
+    "Replacements": [
+     "U",
+     "r",
+     "i",
+     "n"
+    ]
+   },
+   {
+    "Character": "R",
+    "Replacements": [
+     "N",
+     "n",
+     "r",
+     "M"
+    ]
+   },
+   {
+    "Character": "o",
+    "Replacements": [
+     "e",
+     "a",
+     "s",
+     "E"
+    ]
+   },
+   {
+    "Character": "a",
+    "Replacements": [
+     "l",
+     "A",
+     "t",
+     "s"
+    ]
+   },
+   {
+    "Character": "u",
+    "Replacements": [
+     "U",
+     "0",
+     "1",
+     "v"
+    ]
+   },
+   {
+    "Character": "c",
+    "Replacements": [
+     "o",
+     "e",
+     "0",
+     "s"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "0",
+     "o",
+     "6",
+     "8"
+    ]
+   },
+   {
+    "Character": "4",
+    "Replacements": [
+     "d",
+     "t",
+     "l",
+     "a"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "t",
+     "5",
+     "2",
+     "9"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "1",
+     "7",
+     "3",
+     "Z"
+    ]
+   },
+   {
+    "Character": "5",
+    "Replacements": [
+     "3",
+     "s",
+     "S",
+     "8"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "5",
+     "3",
+     "2",
+     "A"
+    ]
+   },
+   {
+    "Character": "5",
+    "Replacements": [
+     "S",
+     "3",
+     "s",
+     "2"
+    ]
+   },
+   {
+    "Character": "4",
+    "Replacements": [
+     "1",
+     "0",
+     "M",
+     "9"
+    ]
+   },
+   {
+    "Character": "4",
+    "Replacements": [
+     "8",
+     "9",
+     "3",
+     "5"
+    ]
+   },
+   {
+    "Character": "R",
+    "Replacements": [
+     "N",
+     "n",
+     "D",
+     "K"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "e",
+     "z",
+     "a",
+     "E"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "4",
+     "8",
+     "6",
+     "a"
+    ]
+   },
+   {
+    "Character": "u",
+    "Replacements": [
+     "U",
+     "0",
+     "v",
+     "o"
+    ]
+   },
+   {
+    "Character": "c",
+    "Replacements": [
+     "o",
+     "e",
+     "0",
+     "d"
+    ]
+   },
+   {
+    "Character": "6",
+    "Replacements": [
+     "0",
+     "o",
+     "e",
+     "8"
+    ]
+   },
+   {
+    "Character": "d",
+    "Replacements": [
+     "4",
+     "0",
+     "a",
+     "u"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "t",
+     "i",
+     "s",
+     "7"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "3",
+     "0",
+     "7",
+     "1"
+    ]
+   },
+   {
+    "Character": "3",
+    "Replacements": [
+     "2",
+     "5",
+     "9",
+     "8"
+    ]
+   },
+   {
+    "Character": "5",
+    "Replacements": [
+     "3",
+     "6",
+     "8",
+     "9"
+    ]
+   },
+   {
+    "Character": "4",
+    "Replacements": [
+     "6",
+     "9",
+     "1",
+     "5"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "2",
+     "a",
+     "3",
+     "4"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "z",
+     "3",
+     "Z",
+     "7"
+    ]
+   },
+   {
+    "Character": "R",
+    "Replacements": [
+     "N",
+     "n",
+     "M",
+     "k"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "c",
+     "o",
+     "s",
+     "i"
+    ]
+   },
+   {
+    "Character": "A",
+    "Replacements": [
+     "d",
+     "4",
+     "a",
+     "l"
+    ]
+   },
+   {
+    "Character": "v",
+    "Replacements": [
+     "u",
+     "i",
+     "n",
+     "N"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "c",
+     "t",
+     "E",
+     "L"
+    ]
+   },
+   {
+    "Character": "t",
+    "Replacements": [
+     "E",
+     "T",
+     "L",
+     "e"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "S",
+     "X",
+     "i",
+     "x"
+    ]
+   },
+   {
+    "Character": "4",
+    "Replacements": [
+     "0",
+     "1",
+     "6",
+     "A"
+    ]
+   },
+   {
+    "Character": "5",
+    "Replacements": [
+     "6",
+     "3",
+     "8",
+     "9"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "L",
+     "4",
+     "7",
+     "i"
+    ]
+   },
+   {
+    "Character": "3",
+    "Replacements": [
+     "2",
+     "1",
+     "4",
+     "7"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "6",
+     "8",
+     "9",
+     "3"
+    ]
+   },
+   {
+    "Character": "F",
+    "Replacements": [
+     "E",
+     "f",
+     "5",
+     "r"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "A",
+     "S",
+     "Y",
+     "C"
+    ]
+   },
+   {
+    "Character": "F",
+    "Replacements": [
+     "R",
+     "H",
+     "P",
+     "f"
+    ]
+   },
+   {
+    "Character": "l",
+    "Replacements": [
+     "I",
+     "1",
+     "L",
+     "i"
+    ]
+   },
+   {
+    "Character": "t",
+    "Replacements": [
+     "i",
+     "1",
+     "l",
+     "I"
+    ]
+   },
+   {
+    "Character": "y",
+    "Replacements": [
+     "1",
+     "t",
+     "4",
+     "v"
+    ]
+   },
+   {
+    "Character": "r",
+    "Replacements": [
+     "n",
+     "m",
+     "1",
+     "F"
+    ]
+   },
+   {
+    "Character": "d",
+    "Replacements": [
+     "D",
+     "a",
+     "o",
+     "0"
+    ]
+   },
+   {
+    "Character": "O",
+    "Replacements": [
+     "D",
+     "0",
+     "Q",
+     "o"
+    ]
+   },
+   {
+    "Character": "u",
+    "Replacements": [
+     "n",
+     "a",
+     "s",
+     "x"
+    ]
+   },
+   {
+    "Character": "t",
+    "Replacements": [
+     "f",
+     "l",
+     "d",
+     "r"
+    ]
+   },
+   {
+    "Character": "x",
+    "Replacements": [
+     "a",
+     "z",
+     "s",
+     "e"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "0",
+     "X",
+     "C",
+     "2"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "O",
+     "6",
+     "9",
+     "8"
+    ]
+   },
+   {
+    "Character": "3",
+    "Replacements": [
+     "1",
+     "9",
+     "0",
+     "2"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "4",
+     "I",
+     "1",
+     "L"
+    ]
+   },
+   {
+    "Character": "F",
+    "Replacements": [
+     "P",
+     "f",
+     "T",
+     "R"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "E",
+     "a",
+     "o",
+     "c"
+    ]
+   },
+   {
+    "Character": "b",
+    "Replacements": [
+     "o",
+     "0",
+     "p",
+     "6"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "2",
+     "i",
+     "e",
+     "a"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "Z",
+     "z",
+     "7",
+     "3"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "8",
+     "6",
+     "4",
+     "1"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "3",
+     "7",
+     "5",
+     "Z"
+    ]
+   },
+   {
+    "Character": "5",
+    "Replacements": [
+     "3",
+     "S",
+     "s",
+     "8"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "5",
+     "X",
+     "1",
+     "0"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "i",
+     "I",
+     "l",
+     "t"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "Q",
+     "8",
+     "9",
+     "6"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "i",
+     "I",
+     "T",
+     "2"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "4",
+     "7",
+     "2",
+     "i"
+    ]
+   },
+   {
+    "Character": "O",
+    "Replacements": [
+     "D",
+     "0",
+     "Q",
+     "C"
+    ]
+   },
+   {
+    "Character": "s",
+    "Replacements": [
+     "u",
+     "o",
+     "a",
+     "x"
+    ]
+   },
+   {
+    "Character": "t",
+    "Replacements": [
+     " ",
+     "l",
+     "e",
+     "s"
+    ]
+   },
+   {
+    "Character": "a",
+    "Replacements": [
+     "e",
+     "s",
+     "o",
+     "x"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "3",
+     "2",
+     "9",
+     "5"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "Q",
+     "9",
+     "O",
+     "8"
+    ]
+   },
+   {
+    "Character": "3",
+    "Replacements": [
+     "1",
+     "5",
+     "7",
+     "J"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "a",
+     "o",
+     "e",
+     "2"
+    ]
+   },
+   {
+    "Character": "F",
+    "Replacements": [
+     "f",
+     "P",
+     "r",
+     "t"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "c",
+     "a",
+     "o",
+     "E"
+    ]
+   },
+   {
+    "Character": "b",
+    "Replacements": [
+     "p",
+     "o",
+     "6",
+     "0"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "Z",
+     "z",
+     "7",
+     "3"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "6",
+     "8",
+     "C",
+     "9"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "3",
+     "7",
+     "5",
+     "8"
+    ]
+   },
+   {
+    "Character": "5",
+    "Replacements": [
+     "S",
+     "3",
+     "s",
+     "8"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "X",
+     "5",
+     "2",
+     "7"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "I",
+     "i",
+     "4",
+     "l"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "Q",
+     "9",
+     "O",
+     "8"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "i",
+     "I",
+     "4",
+     "l"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "7",
+     "3",
+     "0",
+     "9"
+    ]
+   },
+   {
+    "Character": "D",
+    "Replacements": [
+     "O",
+     "0",
+     "Q",
+     "C"
+    ]
+   },
+   {
+    "Character": "i",
+    "Replacements": [
+     "u",
+     "s",
+     "x",
+     "r"
+    ]
+   },
+   {
+    "Character": "t",
+    "Replacements": [
+     "f",
+     "l",
+     "r",
+     "i"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "0",
+     "X",
+     "I",
+     "2"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "O",
+     "Q",
+     "U",
+     "8"
+    ]
+   },
+   {
+    "Character": "3",
+    "Replacements": [
+     "2",
+     "9",
+     "0",
+     "1"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "4",
+     "H",
+     "i",
+     "1"
+    ]
+   },
+   {
+    "Character": "f",
+    "Replacements": [
+     "F",
+     "P",
+     "t",
+     "T"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "c",
+     "a",
+     "o",
+     "u"
+    ]
+   },
+   {
+    "Character": "b",
+    "Replacements": [
+     "B",
+     "d",
+     "p",
+     "6"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "x",
+     "2",
+     "0",
+     "o"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "0",
+     "7",
+     "1",
+     "3"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "6",
+     "O",
+     "8",
+     "9"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "3",
+     "7",
+     "8",
+     "5"
+    ]
+   },
+   {
+    "Character": "5",
+    "Replacements": [
+     "3",
+     "S",
+     "s",
+     "8"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "X",
+     "N",
+     "I",
+     "0"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "I",
+     "i",
+     "l",
+     "4"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "Q",
+     "O",
+     "9",
+     "8"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "7",
+     "0",
+     " ",
+     "i"
+    ]
+   },
+   {
+    "Character": "3",
+    "Replacements": [
+     "1",
+     "2",
+     "7",
+     "y"
+    ]
+   },
+   {
+    "Character": "R",
+    "Replacements": [
+     " ",
+     "P",
+     "B",
+     "r"
+    ]
+   },
+   {
+    "Character": "t",
+    "Replacements": [
+     "s",
+     " ",
+     "f",
+     "o"
+    ]
+   },
+   {
+    "Character": "N",
+    "Replacements": [
+     "n",
+     "H",
+     "Y",
+     "O"
+    ]
+   },
+   {
+    "Character": "o",
+    "Replacements": [
+     "e",
+     "a",
+     "O",
+     "d"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "i",
+     "l",
+     "r",
+     "n"
+    ]
+   },
+   {
+    "Character": "R",
+    "Replacements": [
+     "P",
+     "A",
+     "B",
+     "F"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "o",
+     "a",
+     "r",
+     "u"
+    ]
+   },
+   {
+    "Character": "t",
+    "Replacements": [
+     "f",
+     "i",
+     "l",
+     "s"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "a",
+     "o",
+     "c",
+     "u"
+    ]
+   },
+   {
+    "Character": "r",
+    "Replacements": [
+     "i",
+     "n",
+     "v",
+     "t"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "c",
+     "a",
+     "s",
+     "o"
+    ]
+   },
+   {
+    "Character": "n",
+    "Replacements": [
+     "N",
+     "m",
+     "i",
+     "r"
+    ]
+   },
+   {
+    "Character": "c",
+    "Replacements": [
+     "o",
+     "g",
+     "e",
+     "d"
+    ]
+   },
+   {
+    "Character": "R",
+    "Replacements": [
+     "P",
+     "B",
+     " ",
+     "D"
+    ]
+   },
+   {
+    "Character": "N",
+    "Replacements": [
+     "n",
+     "H",
+     "M",
+     " "
+    ]
+   },
+   {
+    "Character": "o",
+    "Replacements": [
+     "e",
+     "O",
+     "d",
+     "D"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "l",
+     "t",
+     "s",
+     "i"
+    ]
+   },
+   {
+    "Character": "R",
+    "Replacements": [
+     "F",
+     "P",
+     "r",
+     " "
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "o",
+     "a",
+     "i",
+     "r"
+    ]
+   },
+   {
+    "Character": "a",
+    "Replacements": [
+     "h",
+     "i",
+     "A",
+     "d"
+    ]
+   },
+   {
+    "Character": "r",
+    "Replacements": [
+     "i",
+     "a",
+     "e",
+     "t"
+    ]
+   },
+   {
+    "Character": "r",
+    "Replacements": [
+     "t",
+     "i",
+     "e",
+     "n"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "o",
+     "a",
+     "i",
+     "E"
+    ]
+   },
+   {
+    "Character": "n",
+    "Replacements": [
+     "r",
+     "i",
+     "m",
+     "o"
+    ]
+   },
+   {
+    "Character": "c",
+    "Replacements": [
+     "k",
+     "e",
+     "i",
+     "x"
+    ]
+   },
+   {
+    "Character": "e",
+    "Replacements": [
+     "t",
+     "s",
+     "r",
+     "d"
+    ]
+   },
+   {
+    "Character": "R",
+    "Replacements": [
+     "B",
+     " ",
+     "P",
+     "D"
+    ]
+   },
+   {
+    "Character": "t",
+    "Replacements": [
+     "e",
+     "r",
+     "d",
+     "s"
+    ]
+   },
+   {
+    "Character": "N",
+    "Replacements": [
+     "n",
+     "H",
+     "O",
+     "M"
+    ]
+   },
+   {
+    "Character": "o",
+    "Replacements": [
+     "O",
+     "e",
+     "a",
+     "0"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "i",
+     "l",
+     "r",
+     "y"
+    ]
+   },
+   {
+    "Character": "R",
+    "Replacements": [
+     "P",
+     " ",
+     "A",
+     "F"
+    ]
+   },
+   {
+    "Character": "a",
+    "Replacements": [
+     "o",
+     "e",
+     "u",
+     "i"
+    ]
+   },
+   {
+    "Character": "N",
+    "Replacements": [
+     "n",
+     "l",
+     "h",
+     "k"
+    ]
+   },
+   {
+    "Character": "i",
+    "Replacements": [
+     "t",
+     "u",
+     "a",
+     "I"
+    ]
+   },
+   {
+    "Character": "n",
+    "Replacements": [
+     "r",
+     "i",
+     "N",
+     "I"
+    ]
+   },
+   {
+    "Character": "c",
+    "Replacements": [
+     "k",
+     "g",
+     "K",
+     "e"
+    ]
+   },
+   {
+    "Character": "s",
+    "Replacements": [
+     "E",
+     "e",
+     "S",
+     "t"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "T",
+     "I",
+     "t",
+     " "
+    ]
+   },
+   {
+    "Character": "5",
+    "Replacements": [
+     "3",
+     "S",
+     " ",
+     "A"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "5",
+     "S",
+     "s",
+     "3"
+    ]
+   },
+   {
+    "Character": "S",
+    "Replacements": [
+     " ",
+     "s",
+     "9",
+     "A"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "3",
+     "1",
+     "7",
+     "C"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "8",
+     "6",
+     "A",
+     "4"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "I",
+     "A",
+     "1",
+     "L"
+    ]
+   },
+   {
+    "Character": "S",
+    "Replacements": [
+     "s",
+     "5",
+     " ",
+     "3"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "7",
+     "3",
+     "1",
+     "Z"
+    ]
+   },
+   {
+    "Character": "5",
+    "Replacements": [
+     "3",
+     " ",
+     "S",
+     "9"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "1",
+     "i",
+     "t",
+     "T"
+    ]
+   },
+   {
+    "Character": "6",
+    "Replacements": [
+     "5",
+     "8",
+     "b",
+     "0"
+    ]
+   },
+   {
+    "Character": "4",
+    "Replacements": [
+     "0",
+     "9",
+     "1",
+     "6"
+    ]
+   },
+   {
+    "Character": "4",
+    "Replacements": [
+     "1",
+     "a",
+     " ",
+     "0"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "0",
+     "o",
+     "a",
+     "n"
+    ]
+   },
+   {
+    "Character": "5",
+    "Replacements": [
+     "0",
+     "3",
+     "6",
+     "o"
+    ]
+   },
+   {
+    "Character": "9",
+    "Replacements": [
+     "0",
+     "1",
+     "E",
+     "4"
+    ]
+   },
+   {
+    "Character": "0",
+    "Replacements": [
+     "3",
+     "8",
+     "2",
+     "1"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "0",
+     "1",
+     "7",
+     "4"
+    ]
+   },
+   {
+    "Character": "3",
+    "Replacements": [
+     "0",
+     " ",
+     "1",
+     "O"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "i",
+     "t",
+     "I",
+     "T"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "t",
+     "i",
+     "I",
+     "T"
+    ]
+   },
+   {
+    "Character": "N",
+    "Replacements": [
+     "n",
+     "H",
+     "I",
+     "m"
+    ]
+   },
+   {
+    "Character": "a",
+    "Replacements": [
+     "A",
+     "e",
+     "o",
+     "n"
+    ]
+   },
+   {
+    "Character": "4",
+    "Replacements": [
+     "t",
+     "a",
+     " ",
+     "y"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "i",
+     "t",
+     "I",
+     "2"
+    ]
+   },
+   {
+    "Character": "b",
+    "Replacements": [
+     "t",
+     "6",
+     "d",
+     "a"
+    ]
+   },
+   {
+    "Character": "o",
+    "Replacements": [
+     "a",
+     "m",
+     "0",
+     "e"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "z",
+     "7",
+     "Z",
+     "a"
+    ]
+   },
+   {
+    "Character": "s",
+    "Replacements": [
+     "S",
+     "5",
+     " ",
+     "a"
+    ]
+   },
+   {
+    "Character": "R",
+    "Replacements": [
+     "N",
+     "n",
+     "M",
+     "r"
+    ]
+   },
+   {
+    "Character": "s",
+    "Replacements": [
+     "e",
+     "3",
+     "a",
+     "8"
+    ]
+   },
+   {
+    "Character": "1",
+    "Replacements": [
+     "A",
+     "a",
+     "8",
+     "i"
+    ]
+   },
+   {
+    "Character": "v",
+    "Replacements": [
+     "V",
+     "M",
+     "y",
+     "0"
+    ]
+   },
+   {
+    "Character": "4",
+    "Replacements": [
+     "d",
+     "0",
+     "6",
+     "8"
+    ]
+   },
+   {
+    "Character": " ",
+    "Replacements": [
+     "i",
+     "I",
+     "3",
+     "5"
+    ]
+   },
+   {
+    "Character": "9",
+    "Replacements": [
+     "3",
+     "2",
+     "5",
+     "8"
+    ]
+   },
+   {
+    "Character": "3",
+    "Replacements": [
+     "0",
+     "6",
+     "2",
+     "5"
+    ]
+   },
+   {
+    "Character": "2",
+    "Replacements": [
+     "1",
+     "7",
+     "3",
+     "9"
+    ]
+   },
+   {
+    "Character": "3",
+    "Replacements": [
+     "5",
+     "9",
+     "2",
+     "7"
+    ]
+   },
+   {
+    "Character": "4",
+    "Replacements": [
+     "1",
+     "2",
+     "7",
+     "3"
+    ]
+   },
+   {
+    "Character": "n",
+    "Replacements": [
+     "N",
+     "m",
+     "M",
+     "h"
+    ]
+   },
+   {
+    "Character": "m",
+    "Replacements": [
+     "M",
+     "w",
+     "0",
+     "n"
+    ]
+   },
+   {
+    "Character": "t",
+    "Replacements": [
+     "e",
+     "E",
+     "G",
+     "1"
+    ]
+   }
+  ],
+  "Lines": [
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 113,
+     "X": 7,
+     "Y": 18
+    },
+    "Text": "Exoenmer"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 157,
+     "X": 896,
+     "Y": 103
+    },
+    "Text": "Sostings IMrnetan "
+   },
+   {
+    "Rectangle": {
+     "Height": 20,
+     "Width": 72,
+     "X": 918,
+     "Y": 127
+    },
+    "Text": "Endpoin"
+   },
+   {
+    "Rectangle": {
+     "Height": 24,
+     "Width": 117,
+     "X": 902,
+     "Y": 151
+    },
+    "Text": "A HunNeMKe"
+   },
+   {
+    "Rectangle": {
+     "Height": 20,
+     "Width": 141,
+     "X": 961,
+     "Y": 177
+    },
+    "Text": "Ex Avto CMof Em"
+   },
+   {
+    "Rectangle": {
+     "Height": 20,
+     "Width": 37,
+     "X": 908,
+     "Y": 202
+    },
+    "Text": "m1"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 103,
+     "X": 960,
+     "Y": 200
+    },
+    "Text": "365 435 400"
+   },
+   {
+    "Rectangle": {
+     "Height": 27,
+     "Width": 31,
+     "X": 62,
+     "Y": 211
+    },
+    "Text": "M"
+   },
+   {
+    "Rectangle": {
+     "Height": 29,
+     "Width": 64,
+     "X": 193,
+     "Y": 210
+    },
+    "Text": "Q "
+   },
+   {
+    "Rectangle": {
+     "Height": 27,
+     "Width": 62,
+     "X": 433,
+     "Y": 210
+    },
+    "Text": "0O SM"
+   },
+   {
+    "Rectangle": {
+     "Height": 25,
+     "Width": 26,
+     "X": 546,
+     "Y": 211
+    },
+    "Text": "A"
+   },
+   {
+    "Rectangle": {
+     "Height": 31,
+     "Width": 65,
+     "X": 676,
+     "Y": 208
+    },
+    "Text": "10"
+   },
+   {
+    "Rectangle": {
+     "Height": 24,
+     "Width": 133,
+     "X": 902,
+     "Y": 226
+    },
+    "Text": "4 PMT smf Onuc"
+   },
+   {
+    "Rectangle": {
+     "Height": 30,
+     "Width": 63,
+     "X": 129,
+     "Y": 240
+    },
+    "Text": "25"
+   },
+   {
+    "Rectangle": {
+     "Height": 29,
+     "Width": 61,
+     "X": 370,
+     "Y": 240
+    },
+    "Text": "2356"
+   },
+   {
+    "Rectangle": {
+     "Height": 26,
+     "Width": 61,
+     "X": 610,
+     "Y": 241
+    },
+    "Text": "46130"
+   },
+   {
+    "Rectangle": {
+     "Height": 22,
+     "Width": 41,
+     "X": 908,
+     "Y": 252
+    },
+    "Text": "Au"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 132,
+     "X": 95,
+     "Y": 269
+    },
+    "Text": "Roauce4 25 544"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 132,
+     "X": 335,
+     "Y": 269
+    },
+    "Text": "R20uc6d 2354 2"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 131,
+     "X": 577,
+     "Y": 269
+    },
+    "Text": "ReAvet 45130"
+   },
+   {
+    "Rectangle": {
+     "Height": 20,
+     "Width": 104,
+     "X": 913,
+     "Y": 279
+    },
+    "Text": "F Fltyrd"
+   },
+   {
+    "Rectangle": {
+     "Height": 24,
+     "Width": 183,
+     "X": 56,
+     "Y": 299
+    },
+    "Text": "Outx 03 Feb 2025 1011"
+   },
+   {
+    "Rectangle": {
+     "Height": 21,
+     "Width": 184,
+     "X": 296,
+     "Y": 302
+    },
+    "Text": "Osta 03 Feb2025 1012"
+   },
+   {
+    "Rectangle": {
+     "Height": 21,
+     "Width": 186,
+     "X": 538,
+     "Y": 302
+    },
+    "Text": "Dit 03 feb 2025 1013"
+   },
+   {
+    "Rectangle": {
+     "Height": 19,
+     "Width": 33,
+     "X": 58,
+     "Y": 326
+    },
+    "Text": "Rt"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 103,
+     "X": 99,
+     "Y": 325
+    },
+    "Text": "No Reterenc"
+   },
+   {
+    "Rectangle": {
+     "Height": 22,
+     "Width": 50,
+     "X": 295,
+     "Y": 325
+    },
+    "Text": "R"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 104,
+     "X": 339,
+     "Y": 325
+    },
+    "Text": "No Rearrence"
+   },
+   {
+    "Rectangle": {
+     "Height": 21,
+     "Width": 35,
+     "X": 539,
+     "Y": 326
+    },
+    "Text": "Rt"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 105,
+     "X": 580,
+     "Y": 325
+    },
+    "Text": "No RaNincs"
+   },
+   {
+    "Rectangle": {
+     "Height": 27,
+     "Width": 58,
+     "X": 195,
+     "Y": 392
+    },
+    "Text": "15 S"
+   },
+   {
+    "Rectangle": {
+     "Height": 27,
+     "Width": 62,
+     "X": 433,
+     "Y": 392
+    },
+    "Text": "20 S"
+   },
+   {
+    "Rectangle": {
+     "Height": 29,
+     "Width": 65,
+     "X": 674,
+     "Y": 392
+    },
+    "Text": "25 "
+   },
+   {
+    "Rectangle": {
+     "Height": 25,
+     "Width": 60,
+     "X": 129,
+     "Y": 423
+    },
+    "Text": "64425"
+   },
+   {
+    "Rectangle": {
+     "Height": 25,
+     "Width": 62,
+     "X": 369,
+     "Y": 423
+    },
+    "Text": "9023"
+   },
+   {
+    "Rectangle": {
+     "Height": 24,
+     "Width": 47,
+     "X": 618,
+     "Y": 423
+    },
+    "Text": "11"
+   },
+   {
+    "Rectangle": {
+     "Height": 26,
+     "Width": 126,
+     "X": 99,
+     "Y": 449
+    },
+    "Text": "Na4 bo2s"
+   },
+   {
+    "Rectangle": {
+     "Height": 26,
+     "Width": 130,
+     "X": 335,
+     "Y": 449
+    },
+    "Text": "Rs1v4 93234"
+   }
+  ],
+  "Skew": 0,
+  "Text": " Exoenmer\nSostings IMrnetan\nEndpoin\nA HunNeMKe\nEx Avto CMof Em\nm1 365 435 400\nM Q 0O SM A 10\n4 PMT smf Onuc\n25 2356 46130\nAu\nRoauce4 25 544 R20uc6d 2354 2 ReAvet 45130\nF Fltyrd\nOutx 03 Feb 2025 1011 Osta 03 Feb2025 1012 Dit 03 feb 2025 1013\nRt No Reterenc R No Rearrence Rt No RaNincs\n15 S 20 S 25\n64\n ************* Trial Licenses ************* \n",
+  "Words": [
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 113,
+     "X": 7,
+     "Y": 18
+    },
+    "Text": "Exoenmer"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 157,
+     "X": 896,
+     "Y": 103
+    },
+    "Text": "Sostings IMrnetan "
+   },
+   {
+    "Rectangle": {
+     "Height": 20,
+     "Width": 72,
+     "X": 918,
+     "Y": 127
+    },
+    "Text": "Endpoin"
+   },
+   {
+    "Rectangle": {
+     "Height": 24,
+     "Width": 117,
+     "X": 902,
+     "Y": 151
+    },
+    "Text": "A HunNeMKe"
+   },
+   {
+    "Rectangle": {
+     "Height": 20,
+     "Width": 141,
+     "X": 961,
+     "Y": 177
+    },
+    "Text": "Ex Avto CMof Em"
+   },
+   {
+    "Rectangle": {
+     "Height": 20,
+     "Width": 37,
+     "X": 908,
+     "Y": 202
+    },
+    "Text": "m1"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 103,
+     "X": 960,
+     "Y": 200
+    },
+    "Text": "365 435 400"
+   },
+   {
+    "Rectangle": {
+     "Height": 27,
+     "Width": 31,
+     "X": 62,
+     "Y": 211
+    },
+    "Text": "M"
+   },
+   {
+    "Rectangle": {
+     "Height": 29,
+     "Width": 64,
+     "X": 193,
+     "Y": 210
+    },
+    "Text": "Q "
+   },
+   {
+    "Rectangle": {
+     "Height": 27,
+     "Width": 62,
+     "X": 433,
+     "Y": 210
+    },
+    "Text": "0O SM"
+   },
+   {
+    "Rectangle": {
+     "Height": 25,
+     "Width": 26,
+     "X": 546,
+     "Y": 211
+    },
+    "Text": "A"
+   },
+   {
+    "Rectangle": {
+     "Height": 31,
+     "Width": 65,
+     "X": 676,
+     "Y": 208
+    },
+    "Text": "10"
+   },
+   {
+    "Rectangle": {
+     "Height": 24,
+     "Width": 133,
+     "X": 902,
+     "Y": 226
+    },
+    "Text": "4 PMT smf Onuc"
+   },
+   {
+    "Rectangle": {
+     "Height": 30,
+     "Width": 63,
+     "X": 129,
+     "Y": 240
+    },
+    "Text": "25"
+   },
+   {
+    "Rectangle": {
+     "Height": 29,
+     "Width": 61,
+     "X": 370,
+     "Y": 240
+    },
+    "Text": "2356"
+   },
+   {
+    "Rectangle": {
+     "Height": 26,
+     "Width": 61,
+     "X": 610,
+     "Y": 241
+    },
+    "Text": "46130"
+   },
+   {
+    "Rectangle": {
+     "Height": 22,
+     "Width": 41,
+     "X": 908,
+     "Y": 252
+    },
+    "Text": "Au"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 132,
+     "X": 95,
+     "Y": 269
+    },
+    "Text": "Roauce4 25 544"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 132,
+     "X": 335,
+     "Y": 269
+    },
+    "Text": "R20uc6d 2354 2"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 131,
+     "X": 577,
+     "Y": 269
+    },
+    "Text": "ReAvet 45130"
+   },
+   {
+    "Rectangle": {
+     "Height": 20,
+     "Width": 104,
+     "X": 913,
+     "Y": 279
+    },
+    "Text": "F Fltyrd"
+   },
+   {
+    "Rectangle": {
+     "Height": 24,
+     "Width": 183,
+     "X": 56,
+     "Y": 299
+    },
+    "Text": "Outx 03 Feb 2025 1011"
+   },
+   {
+    "Rectangle": {
+     "Height": 21,
+     "Width": 184,
+     "X": 296,
+     "Y": 302
+    },
+    "Text": "Osta 03 Feb2025 1012"
+   },
+   {
+    "Rectangle": {
+     "Height": 21,
+     "Width": 186,
+     "X": 538,
+     "Y": 302
+    },
+    "Text": "Dit 03 feb 2025 1013"
+   },
+   {
+    "Rectangle": {
+     "Height": 19,
+     "Width": 33,
+     "X": 58,
+     "Y": 326
+    },
+    "Text": "Rt"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 103,
+     "X": 99,
+     "Y": 325
+    },
+    "Text": "No Reterenc"
+   },
+   {
+    "Rectangle": {
+     "Height": 22,
+     "Width": 50,
+     "X": 295,
+     "Y": 325
+    },
+    "Text": "R"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 104,
+     "X": 339,
+     "Y": 325
+    },
+    "Text": "No Rearrence"
+   },
+   {
+    "Rectangle": {
+     "Height": 21,
+     "Width": 35,
+     "X": 539,
+     "Y": 326
+    },
+    "Text": "Rt"
+   },
+   {
+    "Rectangle": {
+     "Height": 23,
+     "Width": 105,
+     "X": 580,
+     "Y": 325
+    },
+    "Text": "No RaNincs"
+   },
+   {
+    "Rectangle": {
+     "Height": 27,
+     "Width": 58,
+     "X": 195,
+     "Y": 392
+    },
+    "Text": "15 S"
+   },
+   {
+    "Rectangle": {
+     "Height": 27,
+     "Width": 62,
+     "X": 433,
+     "Y": 392
+    },
+    "Text": "20 S"
+   },
+   {
+    "Rectangle": {
+     "Height": 29,
+     "Width": 65,
+     "X": 674,
+     "Y": 392
+    },
+    "Text": "25 "
+   },
+   {
+    "Rectangle": {
+     "Height": 25,
+     "Width": 60,
+     "X": 129,
+     "Y": 423
+    },
+    "Text": "64425"
+   },
+   {
+    "Rectangle": {
+     "Height": 25,
+     "Width": 62,
+     "X": 369,
+     "Y": 423
+    },
+    "Text": "9023"
+   },
+   {
+    "Rectangle": {
+     "Height": 24,
+     "Width": 47,
+     "X": 618,
+     "Y": 423
+    },
+    "Text": "11"
+   },
+   {
+    "Rectangle": {
+     "Height": 26,
+     "Width": 126,
+     "X": 99,
+     "Y": 449
+    },
+    "Text": "Na4 bo2s"
+   },
+   {
+    "Rectangle": {
+     "Height": 26,
+     "Width": 130,
+     "X": 335,
+     "Y": 449
+    },
+    "Text": "Rs1v4 93234"
+   }
+  ]
+ }
+]
