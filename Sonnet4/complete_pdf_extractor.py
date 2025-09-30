@@ -3,7 +3,7 @@
 Complete PDF Extractor with Sonnet 4 Vision
 Extracts content from image-based PDFs and saves to output path
 """
-
+import re
 import base64
 import json
 import fitz  # PyMuPDF
@@ -14,7 +14,7 @@ class CompletePDFExtractor:
     """Complete PDF extractor using Sonnet 4 vision"""
     
     def __init__(self):
-        api_key = "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"
+        api_key = "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"
         self.client = Anthropic(api_key=api_key)
         print("✅ Sonnet 4 client initialized with working model")
     
@@ -30,7 +30,7 @@ class CompletePDFExtractor:
             doc = fitz.open(pdf_path)
             results = {
                 "pdf_path": pdf_path,
-                "metadata": self.extract_metadata(pdf_path),
+                #"metadata": self.extract_metadata(pdf_path),
                 "pages": [],
                 "full_content": "",
                 "summary": "",
@@ -58,12 +58,13 @@ class CompletePDFExtractor:
                     "image_size": len(img_data)
                 })
                 
-                results["full_content"] += f"\n\n=== PAGE {page_num + 1} ===\n{page_content}"
+                #results["full_content"] += f"\n\n=== PAGE {page_num + 1} ===\n{page_content}"
+                results["full_content"] += f"{page_content}"
             
             doc.close()
             
             # Generate summary and structured data
-            results["summary"] = self.generate_summary(results["full_content"])
+            #results["summary"] = self.generate_summary(results["full_content"])
             results["structured_data"] = self.extract_structured_data(results["full_content"])
             
             # Save results to output path
@@ -75,15 +76,15 @@ class CompletePDFExtractor:
             print(f"❌ Error: {e}")
             return None
     
-    def extract_metadata(self, pdf_path):
-        """Extract PDF metadata"""
-        try:
-            doc = fitz.open(pdf_path)
-            metadata = doc.metadata
-            doc.close()
-            return dict(metadata) if metadata else {}
-        except:
-            return {}
+    # def extract_metadata(self, pdf_path):
+    #     """Extract PDF metadata"""
+    #     try:
+    #         doc = fitz.open(pdf_path)
+    #         metadata = doc.metadata
+    #         doc.close()
+    #         return dict(metadata) if metadata else {}
+    #     except:
+    #         return {}
     
     def analyze_page_vision(self, img_b64, page_num):
         """Analyze page image with Sonnet 4 vision"""
@@ -122,34 +123,34 @@ class CompletePDFExtractor:
             print(f"   ❌ Vision analysis failed for page {page_num}: {e}")
             return f"Error analyzing page {page_num}: {str(e)}"
     
-    def generate_summary(self, content):
-        """Generate document summary"""
-        if not content or len(content.strip()) < 50:
-            return "No substantial content found for summary."
+    # def generate_summary(self, content):
+    #     """Generate document summary"""
+    #     if not content or len(content.strip()) < 50:
+    #         return "No substantial content found for summary."
         
-        try:
-            prompt = f"""
-            Based on this PDF content, provide a comprehensive summary:
+    #     try:
+    #         prompt = f"""
+    #         Based on this PDF content, provide a comprehensive summary:
             
-            {content[:3000]}
+    #         {content[:3000]}
             
-            Include:
-            1. Document title and type
-            2. Main topics and sections
-            3. Key information and data
-            4. Document purpose and context
-            """
+    #         Include:
+    #         1. Document title and type
+    #         2. Main topics and sections
+    #         3. Key information and data
+    #         4. Document purpose and context
+    #         """
             
-            response = self.client.messages.create(
-                model="claude-sonnet-4-20250514",
-                max_tokens=1000,
-                messages=[{"role": "user", "content": prompt}]
-            )
+    #         response = self.client.messages.create(
+    #             model="claude-sonnet-4-20250514",
+    #             max_tokens=1000,
+    #             messages=[{"role": "user", "content": prompt}]
+    #         )
             
-            return response.content[0].text
+    #         return response.content[0].text
             
-        except Exception as e:
-            return f"Summary generation failed: {str(e)}"
+    #     except Exception as e:
+    #         return f"Summary generation failed: {str(e)}"
     
     def extract_structured_data(self, content):
         """Extract structured data from content"""
@@ -197,39 +198,56 @@ class CompletePDFExtractor:
         # Save readable text
         txt_file = f"{output_path}/{base_name}_extracted_content.txt"
         with open(txt_file, 'w', encoding='utf-8') as f:
-            f.write("=" * 80 + "\n")
-            f.write("SONNET 4 PDF EXTRACTION RESULTS\n")
-            f.write("=" * 80 + "\n\n")
+            # f.write("=" * 80 + "\n")
+            # f.write("SONNET 4 PDF EXTRACTION RESULTS\n")
+            # f.write("=" * 80 + "\n\n")
             
-            f.write(f"PDF File: {results['pdf_path']}\n")
-            f.write(f"Pages Processed: {len(results['pages'])}\n")
-            f.write(f"Total Content: {len(results['full_content'])} characters\n\n")
+            # f.write(f"PDF File: {results['pdf_path']}\n")
+            # f.write(f"Pages Processed: {len(results['pages'])}\n")
+            # f.write(f"Total Content: {len(results['full_content'])} characters\n\n")
+
+            # f.write("=" * 80 + "\n")
+            # f.write("METADATA\n")
+            # f.write("=" * 80 + "\n")
+            # for key, value in results['metadata'].items():
+            #     f.write(f"{key}: {value}\n")
+            # f.write("\n")
             
-            f.write("=" * 80 + "\n")
-            f.write("METADATA\n")
-            f.write("=" * 80 + "\n")
-            for key, value in results['metadata'].items():
-                f.write(f"{key}: {value}\n")
-            f.write("\n")
+            # f.write("=" * 80 + "\n")
+            # f.write("DOCUMENT SUMMARY\n")
+            # f.write("=" * 80 + "\n")
+            # f.write(results['summary'])
+            # f.write("\n\n")
             
-            f.write("=" * 80 + "\n")
-            f.write("DOCUMENT SUMMARY\n")
-            f.write("=" * 80 + "\n")
-            f.write(results['summary'])
-            f.write("\n\n")
+            # f.write("=" * 80 + "\n")
+            # f.write("STRUCTURED DATA\n")
+            # f.write("=" * 80 + "\n")
+            # f.write(json.dumps(results['structured_data'], indent=2))
+            # f.write("\n\n")
             
-            f.write("=" * 80 + "\n")
-            f.write("STRUCTURED DATA\n")
-            f.write("=" * 80 + "\n")
-            f.write(json.dumps(results['structured_data'], indent=2))
-            f.write("\n\n")
-            
-            f.write("=" * 80 + "\n")
-            f.write("FULL EXTRACTED CONTENT\n")
-            f.write("=" * 80 + "\n")
-            f.write(results['full_content'])
+    
+            # f.write("=" * 80 + "\n")
+            # f.write("FULL EXTRACTED CONTENT\n")
+            # f.write("=" * 80 + "\n")
+            #f.write(results['full_content'])
+            for line in results['full_content'].splitlines():
+                stripped = line.strip()
+                # Remove lines that are not from the PDF (headers, etc.)
+                if stripped in [
+                    "# Document Analysis - Page 1",
+                    "**Title:**",
+                    "## Document Header"
+                ]:
+                    continue
+                # Remove leading/trailing asterisks (any number)
+                cleaned_line = re.sub(r'^\*+|\*+$', '', stripped)
+                # Remove all # and * inside the line
+                cleaned_line = cleaned_line.replace("#", "").replace("*", "")
+                if cleaned_line:  # Only add non-empty lines
+                    f.write(cleaned_line + "\n")
         
         print(f"💾 Readable content: {txt_file}")
+
         
         # Save CSV format
         csv_file = f"{output_path}/{base_name}_structured_data.csv"
@@ -247,11 +265,11 @@ class CompletePDFExtractor:
             writer.writerow(["category", "field", "value"])
             
             # Add metadata
-            for key, value in results['metadata'].items():
-                writer.writerow(["metadata", key, str(value)])
+            # for key, value in results['metadata'].items():
+            #     writer.writerow(["metadata", key, str(value)])
             
             # Add summary
-            writer.writerow(["summary", "document_summary", results['summary']])
+            #writer.writerow(["summary", "document_summary", results['summary']])
             
             # Add structured data
             if isinstance(results['structured_data'], dict):
@@ -264,7 +282,7 @@ class CompletePDFExtractor:
 
 def main():
     """Main execution"""
-    pdf_path = "pg1.pdf"
+    pdf_path = "SOP-103354 IDU Activity SMP 1.pdf"
     output_path = "sonnet4_output"
     
     print("🚀 Starting Complete PDF Extraction with Sonnet 4")
@@ -290,3 +308,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# with open("c:\\Users\\kishorkumar\\Downloads\\Sonnet4\\Sonnet4\\sonnet4_output\\pg1_extracted_content.txt", "r", encoding="utf-8") as infile:
+#     lines = infile.readlines()
+
+# cleaned_lines = []
+# for line in lines:
+#     # Remove all * and # from the line
+#     cleaned_line = re.sub(r'[\*#]', '', line)
+#     cleaned_lines.append(cleaned_line)
+
+# with open("c:\\Users\\kishorkumar\\Downloads\\Sonnet4\\Sonnet4\\sonnet4_output\\pg1_extracted_content_clean.txt", "w", encoding="utf-8") as outfile:
+#     outfile.writelines(cleaned_lines)
