@@ -1,0 +1,13 @@
+.mybutton{
+    background-color:blue;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+
+    font-size:20px;
+}
+.primary {
+  background-color: #007bff;
+  color: white;
+      border:none;
+}

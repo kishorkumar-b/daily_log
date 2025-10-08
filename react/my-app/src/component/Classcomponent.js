@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import styles from '../Botton.module.css'
 class Lifecycle extends Component {
   constructor(props) {
     super(props);
@@ -29,7 +29,7 @@ static getDerivedStateFromProps(props, state) {
       <div style={{ textAlign: "center" }}>
         <h1>simple lifecycle</h1>
         <h2>Count: {this.state.count}</h2>
-        <button onClick={this.increment}>Increment</button>
+        <button onClick={this.increment} className={`${styles.mybutton} ${styles.primary}`}>Increment</button>
       </div>
     );
   }
