@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<button onclick="setTheme('dark')">Dark Mode</button>
+<button onclick="setTheme('light')">Light Mode</button>
+
+<script>
+function setTheme(mode) {
+  document.cookie = `theme=${mode}; path=/; max-age=${60*60*24*7}`; // 7 days
+  document.body.style.background = mode === 'dark' ? 'black' : 'white';
+  document.body.style.color = mode === 'dark' ? 'white' : 'black';
+  alert("Theme set to " + mode);
+}
+
+function loadTheme() {
+  const cookies = document.cookie.split('; ');
+  for (let c of cookies) {
+    const [key, value] = c.split('=');
+    if (key === 'theme') {
+      setTheme(value);
+    }
+  }
+}
+
+// Load theme on page load
+window.onload = loadTheme;
+</script>
+
+</body>
+</html>

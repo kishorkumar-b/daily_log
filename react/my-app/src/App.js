@@ -15,10 +15,18 @@ import SelectReact from './component/selectReact';
 import Checkbox from './component/checkbox';
 import Ratioreact from './component/ratioreact';
 import SearchBar from './component/transitions';
+import Forref from './component/forwardref/parent';
+import Component1 from './component/Hook/context';
+import Sespensetrans from './component/suspense+transaction/suspenseandtransaction';
+import Counter from './component/Hook/usereducerhook';
+import CallbackHook from './component/Hook/callbackHook';
+import Localstorage from './component/local storage/Localstorage';
+import Cart from './component/local storage/cart';
 import {BrowserRouter,Route,Routes,Link} from 'react-router-dom'
 import { Home ,About,Contact} from './reactrouthing/component';
 import { Team,Company } from './reactrouthing/component';
-import UseEffectHook from './component/useeffecthook';
+import UseEffectHook from './component/Hook/useeffecthook';
+import CounterComponent from './component/Hook/Custom Hook/countercomponent';
 
 
 /* const Portal = lazy(()=> import('./component/createportal')); */
@@ -28,24 +36,51 @@ function App() {
           <h1>Hello World</h1>
       <p>Welcome to React!</p>
      <Lifecycle/>
+     <hr/>
     <Functioncomponent/>
+    <hr/>
     <Props name="kishor" age="20"/>
+    <hr/>
     <Propsclass a={10} b={20}/>
+    <hr/>
     <Parent/>
+    <hr/>
     <Parentclass/>
+    <hr/>
     <Reactlist/>
+    <hr/>
     <Formreact/>
+    <hr/>
     <SelectReact/>
+    <hr/>
     <Checkbox/>
-    
+    <hr/>
     <Ratioreact/>
-
+    <hr/>
       <Suspense fallback={<div>Loading...</div>}>
         <Portal/>
       </Suspense>
+      <hr/>
       <SearchBar/>
+      <hr/>
       <UseEffectHook/>
-
+      <hr/>
+      <Sespensetrans/>
+      <hr/>
+      <Forref/>
+      <hr/>
+      <Component1/>
+      <hr/>
+      <Counter/>
+      <hr/>
+      <CallbackHook/>
+      <hr/>
+      <CounterComponent/>
+      <hr/>
+      <Localstorage/>
+      <hr/>
+      <Cart/>
+      <hr/>
     </div>
 /*     <BrowserRouter>
 
