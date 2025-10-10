@@ -1,0 +1,59 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    margin: 0;
+    padding: 0;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eafaf1; 
+}
+.Login-Box{
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Login-Box h1{
+    text-align: center;
+}
+.Login-Box input {
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f0fff4;
+    border-bottom: 2px solid #27ae60;
+    outline: none;
+    font-size: 14px;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.Login-Box input:focus {
+    border-bottom: 2px solid #1e8449;
+    background-color: #e0f8e9;
+}
+
+.Login-Box label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #145a32; 
+    margin-bottom: 5px;
+    padding-right: 5px;
+}
+.Login-Box button{
+    background-color: #27ae60;
+    border: none;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+
+}
