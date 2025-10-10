@@ -22,6 +22,7 @@ import Counter from './component/Hook/usereducerhook';
 import CallbackHook from './component/Hook/callbackHook';
 import Localstorage from './component/local storage/Localstorage';
 import Cart from './component/local storage/cart';
+import Cookieexamp from './component/cookies/example';
 import {BrowserRouter,Route,Routes,Link} from 'react-router-dom'
 import { Home ,About,Contact} from './reactrouthing/component';
 import { Team,Company } from './reactrouthing/component';
@@ -80,6 +81,8 @@ function App() {
       <Localstorage/>
       <hr/>
       <Cart/>
+      <hr/>
+      <Cookieexamp/>
       <hr/>
     </div>
 /*     <BrowserRouter>
