@@ -1,4 +1,4 @@
-import React, { use, useEffect } from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 
 
@@ -22,7 +22,7 @@ const Cart =()=>{
             <button onClick={addItem}>Add Cart</button>
             <button onClick={clear}>clear</button>
             <h2>cart:</h2>
-            {Cart.lemgth===0 && <div>cart is empty</div>}
+            {Cart.length===0 && <div>cart is empty</div>}
             <ul>
                 {Cart.map((item,index)=>(
                     <li key={index}>

@@ -21,7 +21,7 @@ import Sespensetrans from './component/suspense+transaction/suspenseandtransacti
 import Counter from './component/Hook/usereducerhook';
 import CallbackHook from './component/Hook/callbackHook';
 import Localstorage from './component/local storage/Localstorage';
-import Cart from './component/local storage/cart';
+import Usemamo from './component/Hook/useMemo';
 import Cookieexamp from './component/cookies/example';
 import {BrowserRouter,Route,Routes,Link} from 'react-router-dom'
 import { Home ,About,Contact} from './reactrouthing/component';
@@ -80,12 +80,11 @@ function App() {
       <hr/>
       <Localstorage/>
       <hr/>
-      <Cart/>
+      <Usemamo/>
       <hr/>
       <Cookieexamp/>
       <hr/>
-    </div>
-/*     <BrowserRouter>
+          <BrowserRouter>
 
     <nav>
       <Link to="/">Home</Link>
@@ -100,7 +99,9 @@ function App() {
       </Route>
       <Route path="/contact/*" element={<Contact/>}/>
     </Routes>
-    </BrowserRouter> */
+    </BrowserRouter>
+    </div>
+
   );
 }
 

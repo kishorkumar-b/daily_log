@@ -1,4 +1,4 @@
-import React, { createContext ,use,useContext,useState} from "react";
+import React, { createContext,useContext,useState} from "react";
 
 const userContext = createContext();
 
@@ -17,12 +17,12 @@ const Component1=()=>{
 }
 
 const Component2=()=>{
-     const user = useContext(userContext)
     return(
         <div>component2
             <Component3/>
         </div>   
     )}
+    
 const Component3=()=>{
     const user = useContext(userContext)
     return(
@@ -32,7 +32,6 @@ const Component3=()=>{
             <h2>name:{user.name}</h2>
             <h2>age:{user.age}</h2>
         </div>
-
     )}
 
 export default Component1;
