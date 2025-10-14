@@ -1,6 +1,6 @@
 import {useState,useEffect} from "react";
 import { useNavigate,useLocation} from "react-router-dom";
-import { saveCredentials, getDecryptedCredentials,clearCredentials } from "../component/Authstore";
+import { saveCredentials, getDecryptedCredentials,clearCredentials } from "../component/Login/Authstore";
 
 const Login = () => {
     const [Username, setUsername] = useState("");

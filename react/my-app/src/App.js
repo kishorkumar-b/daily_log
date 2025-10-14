@@ -23,6 +23,9 @@ import CallbackHook from './component/Hook/callbackHook';
 import Localstorage from './component/local storage/Localstorage';
 import Usemamo from './component/Hook/useMemo';
 import Cookieexamp from './component/cookies/example';
+import UsersList from './component/axiosandfetch/Userlist';
+import FetchUsersList from './component/axiosandfetch/fetch';
+import AddUser from './component/axiosandfetch/axsiospost';
 import {BrowserRouter,Route,Routes,Link} from 'react-router-dom'
 import { Home ,About,Contact} from './reactrouthing/component';
 import { Team,Company } from './reactrouthing/component';
@@ -84,6 +87,12 @@ function App() {
       <hr/>
       <Cookieexamp/>
       <hr/>
+      <UsersList/>
+      <hr/>
+      <FetchUsersList/>
+      <hr/>
+      <AddUser/>
+      <hr/>
           <BrowserRouter>
 
     <nav>
@@ -100,6 +109,7 @@ function App() {
       <Route path="/contact/*" element={<Contact/>}/>
     </Routes>
     </BrowserRouter>
+    <hr/>
     </div>
 
   );

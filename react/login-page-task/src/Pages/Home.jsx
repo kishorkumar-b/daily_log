@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom"
+/* import { useNavigate } from "react-router-dom"
 import { clearCredentials } from "../component/Authstore"
 const Home = ()=>{
     const navigate=useNavigate()
@@ -19,6 +19,36 @@ const Home = ()=>{
         </div>
     )
 }
+export default Home; */
+
+// src/App.js
+
+
+import { useState } from "react";
+import Sidebar from "../component/Home/Sidebar";
+
+
+const Home = () => {
+    const [selectedComponent, setSelectedComponent] = useState(null);
+
+
+  return (
+     <div className="flex h-screen bg-blue-50">
+      <Sidebar onSelect={setSelectedComponent} />
+
+      <div className="flex-1 flex flex-col">
+        {/*header*/}
+        <main className="p-6 flex-1 overflow-y-auto">
+          {selectedComponent || <div>Welcome! Select a menu option.</div>}
+        </main>
+      </div>
+    </div>
+  );
+};
+
 export default Home;
+
+
+
 
 
