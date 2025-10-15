@@ -8,10 +8,10 @@ import {
   FiCalendar, 
   FiStar 
 } from "react-icons/fi";
-import React from "react";
+import DataExplorer from "../Dataexplorer/DataExplorer";
 
 // You can define the components here
-const Dashboard = () => <div>📊 Dashboard Component</div>;
+
 const Analytics = () => <div>📈 Analytics Component</div>;
 const UserInfo = () => <div>👤 User Info Component</div>;
 const ProfileSettings = () => <div>⚙️ Profile Settings Component</div>;
@@ -33,7 +33,7 @@ const menuItems = [
     icon: <FiHome size={24} />,
     label: "Home",
     subItems: [
-      { label: "Dashboard", component: <Dashboard /> },
+      { label: "Data Explorer", component: <DataExplorer /> },
       { label: "Analytics", component: <Analytics /> },
     ],
   },

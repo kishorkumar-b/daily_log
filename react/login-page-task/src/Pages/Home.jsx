@@ -25,7 +25,9 @@ export default Home; */
 
 
 import { useState } from "react";
-import Sidebar from "../component/Home/Sidebar";
+import Sidebar from "../component/Home/SideBar/Sidebar";
+import Header from "../component/Home/Header/Header";
+import DataExplorer from "../component/Home/Dataexplorer/DataExplorer";
 
 
 const Home = () => {
@@ -33,14 +35,21 @@ const Home = () => {
 
 
   return (
-     <div className="flex h-screen bg-blue-50">
+     <div className="flex h-screen bg-white">
       <Sidebar onSelect={setSelectedComponent} />
 
       <div className="flex-1 flex flex-col">
-        {/*header*/}
-        <main className="p-6 flex-1 overflow-y-auto">
-          {selectedComponent || <div>Welcome! Select a menu option.</div>}
-        </main>
+        <Header/>
+      <main className=" flex-1 overflow-y-auto">
+        {selectedComponent ? (
+          <div className="w-full h-full">
+            {selectedComponent}
+          </div>
+        ) : (
+          <DataExplorer/>
+        )}
+      </main>
+
       </div>
     </div>
   );
