@@ -9,11 +9,12 @@ import {
   FiStar 
 } from "react-icons/fi";
 import DataExplorer from "../Dataexplorer/DataExplorer";
+import UserManagement from "../UserManagement/UserManagement";
 
 // You can define the components here
 
 const Analytics = () => <div>📈 Analytics Component</div>;
-const UserInfo = () => <div>👤 User Info Component</div>;
+
 const ProfileSettings = () => <div>⚙️ Profile Settings Component</div>;
 const Monthly = () => <div>📅 Monthly Reports</div>;
 const Yearly = () => <div>📅 Yearly Reports</div>;
@@ -41,7 +42,7 @@ const menuItems = [
     icon: <FiUser size={24} />,
     label: "Profile",
     subItems: [
-      { label: "User Info", component: <UserInfo /> },
+      { label: "User Mangement", component: <UserManagement /> },
       { label: "Settings", component: <ProfileSettings /> },
     ],
   },
