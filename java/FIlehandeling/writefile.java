@@ -9,7 +9,7 @@ public class writefile {
    
     try{
         FileWriter myfile = new FileWriter("text.txt");
-        myfile.write("apple");
+        myfile.write("In Java, you can create a new file with the createNewFile() method from the File class.");
         myfile.close();
         System.out.println("written in file");
     }catch(IOException e){
