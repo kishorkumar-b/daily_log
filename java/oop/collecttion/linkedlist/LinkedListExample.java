@@ -10,7 +10,9 @@ public class LinkedListExample {
         list.add(20); 
 
         System.out.println("List: " + list);
+        System.out.println(list.indexOf(10));
         list.removeFirst();
+        System.out.println(list.indexOf(10));
         System.out.println("After removeFirst(): " + list);
     }
 }
