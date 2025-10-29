@@ -26,11 +26,7 @@ public class MSSQLExample {
             stmt.execute("USE TestDB");
 
             // 5️⃣ Create a table
-            String createTable = "IF OBJECT_ID('Employees', 'U') IS NULL " +
-                                 "CREATE TABLE Employees (" +
-                                 "id INT PRIMARY KEY IDENTITY(1,1), " +
-                                 "name VARCHAR(50), " +
-                                 "salary FLOAT)";
+            String createTable = "IF OBJECT_ID('Employees', 'U') IS NULL CREATE TABLE Employees ( id INT PRIMARY KEY IDENTITY(1,1), name VARCHAR(50), salary FLOAT)";
             stmt.executeUpdate(createTable);
             System.out.println("📗 Table created or already exists.");
 
