@@ -1,0 +1,12 @@
+<students>
+    <student>
+        <id>101</id>
+        <name>Kishor</name>
+        <course>Java</course>
+    </student>
+    <student>
+        <id>102</id>
+        <name>Anu</name>
+        <course>Python</course>
+    </student>
+</students>

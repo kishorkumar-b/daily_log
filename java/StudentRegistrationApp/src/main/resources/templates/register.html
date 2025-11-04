@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Student Registration</title>
+</head>
+<body>
+    <h2>Student Registration</h2>
+
+<form action="/register" method="post">
+    Name: <input type="text" name="name" required>
+    Age: <input type="number" name="age" required>
+    <button type="submit">Register</button>
+</form>
+
+    <p style="color:green;">[[${message}]]</p>
+</body>
+</html>
