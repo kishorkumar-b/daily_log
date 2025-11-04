@@ -1,0 +1,12 @@
+2025-11-04 18:28:38 [INFO] Log4jexApplication - Application started...
+2025-11-04 18:28:38 [DEBUG] Log4jexApplication - Calculation result: 5
+2025-11-04 18:28:38 [WARN] Log4jexApplication - This is a warning message!
+2025-11-04 18:28:38 [INFO] Log4jexApplication - Application finished successfully!
+2025-11-04 18:29:33 [INFO] Log4jexApplication - Application started...
+2025-11-04 18:29:33 [DEBUG] Log4jexApplication - Calculation result: 5
+2025-11-04 18:29:33 [WARN] Log4jexApplication - This is a warning message!
+2025-11-04 18:29:33 [INFO] Log4jexApplication - Application finished successfully!
+2025-11-04 18:32:46 [INFO] Log4jexApplication - Application started...
+2025-11-04 18:32:46 [DEBUG] Log4jexApplication - Calculation result: 5
+2025-11-04 18:32:46 [WARN] Log4jexApplication - This is a warning message!
+2025-11-04 18:32:46 [INFO] Log4jexApplication - Application finished successfully!
