@@ -1,0 +1,478 @@
+2025-11-05T13:01:47.086+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-05T13:01:47.087+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-05T13:01:47.089+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2025-11-05T13:01:47.137+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T13:01:47.163+05:30 DEBUG 8376 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : Fetched 6 records from database
+2025-11-05T13:01:47.235+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-2] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T13:01:47.236+05:30 DEBUG 8376 --- [fuel-tracker] [http-nio-8080-exec-2] c.e.f.c.FuelController                   : Fetched 6 records from database
+2025-11-05T13:05:52.077+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-5] c.e.f.c.FuelController                   : 📘 Request to add fuel log for vehicle: TN23AB1234
+2025-11-05T13:05:52.122+05:30 DEBUG 8376 --- [fuel-tracker] [http-nio-8080-exec-5] c.e.f.c.FuelController                   : ✅ Fuel log added: Vehicle=TN23AB1234 Liters=11.0 Price=12344.0 Date=2025-11-05
+2025-11-05T13:05:52.136+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-6] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T13:05:52.137+05:30 DEBUG 8376 --- [fuel-tracker] [http-nio-8080-exec-6] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T14:34:01.036+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-8] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T14:34:01.074+05:30 DEBUG 8376 --- [fuel-tracker] [http-nio-8080-exec-8] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T14:34:01.077+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-9] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T14:34:01.079+05:30 DEBUG 8376 --- [fuel-tracker] [http-nio-8080-exec-9] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T14:34:01.681+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-10] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T14:34:01.683+05:30 DEBUG 8376 --- [fuel-tracker] [http-nio-8080-exec-10] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T14:34:01.687+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T14:34:01.689+05:30 DEBUG 8376 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T15:04:12.359+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-4] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:04:12.369+05:30 DEBUG 8376 --- [fuel-tracker] [http-nio-8080-exec-4] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T15:04:12.374+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-3] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:04:12.375+05:30 DEBUG 8376 --- [fuel-tracker] [http-nio-8080-exec-3] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T15:06:21.300+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-6] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:06:21.303+05:30 DEBUG 8376 --- [fuel-tracker] [http-nio-8080-exec-6] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T15:06:21.308+05:30  INFO 8376 --- [fuel-tracker] [http-nio-8080-exec-7] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:06:21.309+05:30 DEBUG 8376 --- [fuel-tracker] [http-nio-8080-exec-7] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T15:11:27.943+05:30  INFO 8376 --- [fuel-tracker] [RMI TCP Connection(135)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-05T15:11:27.988+05:30  INFO 8376 --- [fuel-tracker] [RMI TCP Connection(135)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-05T15:11:27.995+05:30  INFO 8376 --- [fuel-tracker] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-11-05T15:11:28.016+05:30  INFO 8376 --- [fuel-tracker] [RMI TCP Connection(135)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-05T15:11:28.019+05:30  INFO 8376 --- [fuel-tracker] [RMI TCP Connection(135)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-05T15:43:20.791+05:30  INFO 18460 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Starting FuelTrackerApplication using Java 21.0.8 with PID 18460 (C:\Users\kishorkumar\Documents\java\fuel-tracker\target\classes started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-05T15:43:20.798+05:30 DEBUG 18460 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-05T15:43:20.798+05:30  INFO 18460 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-11-05T15:43:21.541+05:30  INFO 18460 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-05T15:43:21.555+05:30  INFO 18460 --- [fuel-tracker] [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-05T15:43:21.556+05:30  INFO 18460 --- [fuel-tracker] [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-05T15:43:21.592+05:30  INFO 18460 --- [fuel-tracker] [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-05T15:43:21.592+05:30  INFO 18460 --- [fuel-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 751 ms
+2025-11-05T15:43:22.055+05:30  WARN 18460 --- [fuel-tracker] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-11-05T15:43:22.078+05:30  INFO 18460 --- [fuel-tracker] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-05T15:43:22.091+05:30 ERROR 18460 --- [fuel-tracker] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-11-05 15:44:03 INFO  SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2025-11-05 15:44:03 INFO  GracefulShutdown:54 - Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-05 15:44:03 INFO  Http11NioProtocol:168 - Pausing ProtocolHandler ["http-nio-8081"]
+2025-11-05 15:44:03 INFO  GracefulShutdown:76 - Graceful shutdown complete
+2025-11-05 15:44:03 INFO  Http11NioProtocol:168 - Stopping ProtocolHandler ["http-nio-8081"]
+2025-11-05T15:44:15.615+05:30  INFO 32692 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Starting FuelTrackerApplication using Java 21.0.8 with PID 32692 (C:\Users\kishorkumar\Documents\java\fuel-tracker\target\classes started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-05T15:44:15.621+05:30 DEBUG 32692 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-05T15:44:15.623+05:30  INFO 32692 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-11-05T15:44:16.358+05:30  INFO 32692 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-05T15:44:16.373+05:30  INFO 32692 --- [fuel-tracker] [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-05T15:44:16.374+05:30  INFO 32692 --- [fuel-tracker] [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-05T15:44:16.412+05:30  INFO 32692 --- [fuel-tracker] [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-05T15:44:16.413+05:30  INFO 32692 --- [fuel-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 744 ms
+2025-11-05T15:44:16.880+05:30  INFO 32692 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-05T15:44:16.886+05:30  INFO 32692 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Started FuelTrackerApplication in 1.694 seconds (process running for 2.425)
+2025-11-05T15:44:16.897+05:30  INFO 32692 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-05T15:44:17.199+05:30  INFO 32692 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: b864b4ba-1fb2-406e-8864-52d86741c850
+2025-11-05T15:44:17.200+05:30  INFO 32692 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-05T15:44:28.060+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-05T15:44:28.061+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-05T15:44:28.062+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2025-11-05T15:44:28.101+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:44:28.117+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T15:44:28.165+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:44:28.167+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T15:45:39.305+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-4] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:45:39.321+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-4] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T15:45:39.324+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-5] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:45:39.326+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-5] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T15:46:04.780+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-6] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:46:04.784+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-6] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T15:46:04.787+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-7] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:46:04.789+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-7] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T15:47:25.231+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-9] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:47:25.246+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-9] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T15:47:25.250+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-10] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:47:25.251+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-10] c.e.f.c.FuelController                   : Fetched 7 records from database
+2025-11-05T15:48:20.186+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📘 Request to add fuel log for vehicle: TN23BA8907
+2025-11-05T15:48:20.241+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : ✅ Fuel log added: Vehicle=TN23BA8907 Liters=45.0 Price=643675.0 Date=2025-11-05
+2025-11-05T15:48:23.339+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-2] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:48:23.341+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-2] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T15:48:23.343+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-3] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:48:23.345+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-3] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T15:57:54.552+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-5] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:57:54.568+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-5] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T15:57:54.574+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-6] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T15:57:54.576+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-6] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T16:19:32.895+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-8] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T16:19:32.905+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-8] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T16:19:32.909+05:30  INFO 32692 --- [fuel-tracker] [http-nio-8080-exec-9] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T16:19:32.911+05:30 DEBUG 32692 --- [fuel-tracker] [http-nio-8080-exec-9] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T16:22:17.158+05:30  INFO 32692 --- [fuel-tracker] [RMI TCP Connection(41)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-05T16:22:17.161+05:30  INFO 32692 --- [fuel-tracker] [RMI TCP Connection(41)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-05T16:22:17.165+05:30  INFO 32692 --- [fuel-tracker] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-11-05T16:22:17.169+05:30  INFO 32692 --- [fuel-tracker] [RMI TCP Connection(41)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-05T16:22:17.172+05:30  INFO 32692 --- [fuel-tracker] [RMI TCP Connection(41)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-05T16:22:48.887+05:30  INFO 20660 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Starting FuelTrackerApplication using Java 21.0.8 with PID 20660 (C:\Users\kishorkumar\Documents\java\fuel-tracker\target\classes started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-05T16:22:48.894+05:30 DEBUG 20660 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-05T16:22:48.895+05:30  INFO 20660 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-11-05T16:22:49.782+05:30  INFO 20660 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-05T16:22:49.799+05:30  INFO 20660 --- [fuel-tracker] [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-05T16:22:49.799+05:30  INFO 20660 --- [fuel-tracker] [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-05T16:22:49.843+05:30  INFO 20660 --- [fuel-tracker] [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-05T16:22:49.844+05:30  INFO 20660 --- [fuel-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 905 ms
+2025-11-05T16:22:50.372+05:30  INFO 20660 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-05T16:22:50.380+05:30  INFO 20660 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Started FuelTrackerApplication in 2.002 seconds (process running for 3.258)
+2025-11-05T16:22:50.388+05:30  INFO 20660 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-05T16:22:50.770+05:30  INFO 20660 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: dba7b706-f544-45da-90e3-cd7ba5525e88
+2025-11-05T16:22:50.773+05:30  INFO 20660 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-05T16:23:12.221+05:30  INFO 20660 --- [fuel-tracker] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-05T16:23:12.221+05:30  INFO 20660 --- [fuel-tracker] [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-05T16:23:12.222+05:30  INFO 20660 --- [fuel-tracker] [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2025-11-05T16:23:12.263+05:30  INFO 20660 --- [fuel-tracker] [http-nio-8080-exec-2] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T16:23:12.317+05:30 DEBUG 20660 --- [fuel-tracker] [http-nio-8080-exec-2] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T16:23:12.377+05:30  INFO 20660 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T16:23:12.378+05:30 DEBUG 20660 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T16:23:40.953+05:30  INFO 20660 --- [fuel-tracker] [http-nio-8080-exec-3] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T16:23:40.961+05:30 DEBUG 20660 --- [fuel-tracker] [http-nio-8080-exec-3] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T16:23:40.966+05:30  INFO 20660 --- [fuel-tracker] [http-nio-8080-exec-4] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T16:23:40.968+05:30 DEBUG 20660 --- [fuel-tracker] [http-nio-8080-exec-4] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T17:55:46.129+05:30  INFO 20660 --- [fuel-tracker] [RMI TCP Connection(97)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-05T17:55:46.137+05:30  INFO 20660 --- [fuel-tracker] [RMI TCP Connection(97)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-05T17:55:46.142+05:30  INFO 20660 --- [fuel-tracker] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-11-05T17:55:46.148+05:30  INFO 20660 --- [fuel-tracker] [RMI TCP Connection(97)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-05T17:55:46.150+05:30  INFO 20660 --- [fuel-tracker] [RMI TCP Connection(97)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-05T18:07:01.735+05:30  INFO 33748 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Starting FuelTrackerApplication using Java 21.0.8 with PID 33748 (C:\Users\kishorkumar\Documents\java\fuel-tracker\target\classes started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-05T18:07:01.743+05:30 DEBUG 33748 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-05T18:07:01.746+05:30  INFO 33748 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-11-05T18:07:02.495+05:30  INFO 33748 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-05T18:07:02.510+05:30  INFO 33748 --- [fuel-tracker] [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-05T18:07:02.510+05:30  INFO 33748 --- [fuel-tracker] [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-05T18:07:02.549+05:30  INFO 33748 --- [fuel-tracker] [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-05T18:07:02.549+05:30  INFO 33748 --- [fuel-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 753 ms
+2025-11-05T18:07:03.014+05:30  INFO 33748 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-05T18:07:03.020+05:30  INFO 33748 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Started FuelTrackerApplication in 1.72 seconds (process running for 2.457)
+2025-11-05T18:07:03.028+05:30  INFO 33748 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-05T18:07:03.281+05:30  INFO 33748 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: fcea97e2-19a1-48e9-9030-dd4995bba188
+2025-11-05T18:07:03.283+05:30  INFO 33748 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-05T18:07:07.876+05:30  INFO 33748 --- [fuel-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-05T18:07:07.876+05:30  INFO 33748 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-05T18:07:07.877+05:30  INFO 33748 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2025-11-05T18:07:07.916+05:30  INFO 33748 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T18:07:07.930+05:30 DEBUG 33748 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T18:07:07.984+05:30  INFO 33748 --- [fuel-tracker] [http-nio-8080-exec-2] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T18:07:07.986+05:30 DEBUG 33748 --- [fuel-tracker] [http-nio-8080-exec-2] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T18:07:11.367+05:30  INFO 33748 --- [fuel-tracker] [http-nio-8080-exec-3] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T18:07:11.377+05:30 DEBUG 33748 --- [fuel-tracker] [http-nio-8080-exec-3] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T18:07:11.383+05:30  INFO 33748 --- [fuel-tracker] [http-nio-8080-exec-4] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T18:07:11.385+05:30 DEBUG 33748 --- [fuel-tracker] [http-nio-8080-exec-4] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T18:07:12.396+05:30  INFO 33748 --- [fuel-tracker] [http-nio-8080-exec-5] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T18:07:12.400+05:30 DEBUG 33748 --- [fuel-tracker] [http-nio-8080-exec-5] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T18:07:12.405+05:30  INFO 33748 --- [fuel-tracker] [http-nio-8080-exec-6] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T18:07:12.408+05:30 DEBUG 33748 --- [fuel-tracker] [http-nio-8080-exec-6] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T18:07:44.253+05:30  INFO 33748 --- [fuel-tracker] [http-nio-8080-exec-7] c.e.f.c.FuelController                   : 📘 Request to add fuel log for vehicle: TN12TH123
+2025-11-05T18:07:44.294+05:30 ERROR 33748 --- [fuel-tracker] [http-nio-8080-exec-7] c.e.f.c.FuelController                   : ❌ Error adding fuel log for vehicle TN12TH123: PreparedStatementCallback; SQL [INSERT INTO fuel_log (vehicle_no, liters, price, log_date, log_time) VALUES (?, ?, ?, ?)]; The index 5 is out of range.
+2025-11-05T18:07:47.426+05:30  INFO 33748 --- [fuel-tracker] [http-nio-8080-exec-8] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T18:07:47.428+05:30 DEBUG 33748 --- [fuel-tracker] [http-nio-8080-exec-8] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T18:07:47.432+05:30  INFO 33748 --- [fuel-tracker] [http-nio-8080-exec-9] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T18:07:47.434+05:30 DEBUG 33748 --- [fuel-tracker] [http-nio-8080-exec-9] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T18:07:55.724+05:30  INFO 33748 --- [fuel-tracker] [http-nio-8080-exec-10] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T18:07:55.726+05:30 DEBUG 33748 --- [fuel-tracker] [http-nio-8080-exec-10] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T18:07:55.729+05:30  INFO 33748 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T18:07:55.732+05:30 DEBUG 33748 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T18:10:56.580+05:30  INFO 33748 --- [fuel-tracker] [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-05T18:10:56.582+05:30  INFO 33748 --- [fuel-tracker] [RMI TCP Connection(8)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-05T18:10:56.587+05:30  INFO 33748 --- [fuel-tracker] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-11-05T18:10:56.590+05:30  INFO 33748 --- [fuel-tracker] [RMI TCP Connection(8)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-05T18:10:56.593+05:30  INFO 33748 --- [fuel-tracker] [RMI TCP Connection(8)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-05T18:11:02.228+05:30  INFO 1972 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Starting FuelTrackerApplication using Java 21.0.8 with PID 1972 (C:\Users\kishorkumar\Documents\java\fuel-tracker\target\classes started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-05T18:11:02.234+05:30 DEBUG 1972 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-05T18:11:02.236+05:30  INFO 1972 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-11-05T18:11:02.979+05:30  INFO 1972 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-05T18:11:02.993+05:30  INFO 1972 --- [fuel-tracker] [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-05T18:11:02.994+05:30  INFO 1972 --- [fuel-tracker] [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-05T18:11:03.028+05:30  INFO 1972 --- [fuel-tracker] [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-05T18:11:03.029+05:30  INFO 1972 --- [fuel-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 752 ms
+2025-11-05T18:11:03.503+05:30  INFO 1972 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-05T18:11:03.509+05:30  INFO 1972 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Started FuelTrackerApplication in 1.707 seconds (process running for 2.438)
+2025-11-05T18:11:03.518+05:30  INFO 1972 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-05T18:11:03.772+05:30  INFO 1972 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 88f1978d-8eae-4c07-9aef-1b24d0f56ffb
+2025-11-05T18:11:03.774+05:30  INFO 1972 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-05T18:15:54.295+05:30  INFO 1972 --- [fuel-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-05T18:15:54.295+05:30  INFO 1972 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-05T18:15:54.296+05:30  INFO 1972 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2025-11-05T18:15:54.344+05:30  INFO 1972 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T18:15:54.379+05:30 DEBUG 1972 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T18:15:54.439+05:30  INFO 1972 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T18:15:54.442+05:30 DEBUG 1972 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : Fetched 8 records from database
+2025-11-05T18:17:28.224+05:30  INFO 1972 --- [fuel-tracker] [http-nio-8080-exec-4] c.e.f.c.FuelController                   : 📘 Request to add fuel log for vehicle: 123
+2025-11-05T18:17:28.270+05:30 DEBUG 1972 --- [fuel-tracker] [http-nio-8080-exec-4] c.e.f.c.FuelController                   : ✅ Fuel log added: Vehicle=123 Liters=123.0 Price=2134.0 Date=2025-11-05
+2025-11-05T18:17:31.989+05:30  INFO 1972 --- [fuel-tracker] [http-nio-8080-exec-5] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T18:17:31.991+05:30 DEBUG 1972 --- [fuel-tracker] [http-nio-8080-exec-5] c.e.f.c.FuelController                   : Fetched 9 records from database
+2025-11-05T18:17:31.996+05:30  INFO 1972 --- [fuel-tracker] [http-nio-8080-exec-6] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-05T18:17:31.997+05:30 DEBUG 1972 --- [fuel-tracker] [http-nio-8080-exec-6] c.e.f.c.FuelController                   : Fetched 9 records from database
+2025-11-05T19:05:50.214+05:30  INFO 1972 --- [fuel-tracker] [RMI TCP Connection(58)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-05T19:05:50.216+05:30  INFO 1972 --- [fuel-tracker] [RMI TCP Connection(58)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-05T19:05:50.221+05:30  INFO 1972 --- [fuel-tracker] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-11-05T19:05:50.224+05:30  INFO 1972 --- [fuel-tracker] [RMI TCP Connection(58)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-05T19:05:50.225+05:30  INFO 1972 --- [fuel-tracker] [RMI TCP Connection(58)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T10:07:14.908+05:30  INFO 16364 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Starting FuelTrackerApplication using Java 21.0.8 with PID 16364 (C:\Users\kishorkumar\Documents\java\fuel-tracker\target\classes started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T10:07:14.915+05:30 DEBUG 16364 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T10:07:14.916+05:30  INFO 16364 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T10:07:15.752+05:30  INFO 16364 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T10:07:15.776+05:30  INFO 16364 --- [fuel-tracker] [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T10:07:15.776+05:30  INFO 16364 --- [fuel-tracker] [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T10:07:15.828+05:30  INFO 16364 --- [fuel-tracker] [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T10:07:15.828+05:30  INFO 16364 --- [fuel-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 867 ms
+2025-11-06T10:07:16.332+05:30  INFO 16364 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T10:07:16.338+05:30  INFO 16364 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Started FuelTrackerApplication in 1.856 seconds (process running for 2.586)
+2025-11-06T10:07:16.344+05:30  INFO 16364 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T10:07:16.694+05:30  INFO 16364 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: bf5f4231-8c6c-4556-8453-d030fb164672
+2025-11-06T10:07:16.697+05:30  INFO 16364 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T10:08:33.056+05:30  INFO 16364 --- [fuel-tracker] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-06T10:08:33.056+05:30  INFO 16364 --- [fuel-tracker] [RMI TCP Connection(5)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-06T10:08:33.056+05:30  INFO 16364 --- [fuel-tracker] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-11-06T10:08:33.056+05:30  INFO 16364 --- [fuel-tracker] [RMI TCP Connection(5)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T10:08:33.072+05:30  INFO 16364 --- [fuel-tracker] [RMI TCP Connection(5)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T10:09:22.875+05:30  INFO 33048 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Starting FuelTrackerApplication using Java 21.0.8 with PID 33048 (C:\Users\kishorkumar\Documents\java\fuel-tracker\target\classes started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T10:09:22.881+05:30 DEBUG 33048 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T10:09:22.887+05:30  INFO 33048 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T10:09:23.665+05:30  INFO 33048 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T10:09:23.679+05:30  INFO 33048 --- [fuel-tracker] [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T10:09:23.680+05:30  INFO 33048 --- [fuel-tracker] [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T10:09:23.718+05:30  INFO 33048 --- [fuel-tracker] [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T10:09:23.719+05:30  INFO 33048 --- [fuel-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 791 ms
+2025-11-06T10:09:24.202+05:30  INFO 33048 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T10:09:24.209+05:30  INFO 33048 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Started FuelTrackerApplication in 1.786 seconds (process running for 2.869)
+2025-11-06T10:09:24.218+05:30  INFO 33048 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T10:09:24.532+05:30  INFO 33048 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 6a9c05cd-1519-4112-97a3-ddf20f7186cc
+2025-11-06T10:09:24.534+05:30  INFO 33048 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T10:09:31.804+05:30  INFO 33048 --- [fuel-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06T10:09:31.804+05:30  INFO 33048 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-06T10:09:31.805+05:30  INFO 33048 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2025-11-06T10:09:31.848+05:30  INFO 33048 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-06T10:09:51.744+05:30  INFO 33048 --- [fuel-tracker] [http-nio-8080-exec-3] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-06T10:10:36.527+05:30 DEBUG 33048 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : Fetched 9 records from database
+2025-11-06T10:11:18.607+05:30  INFO 31344 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Starting FuelTrackerApplication using Java 21.0.8 with PID 31344 (C:\Users\kishorkumar\Documents\java\fuel-tracker\target\classes started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T10:11:18.609+05:30 DEBUG 31344 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T10:11:18.609+05:30  INFO 31344 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T10:11:19.370+05:30  INFO 31344 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T10:11:19.376+05:30  INFO 31344 --- [fuel-tracker] [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T10:11:19.376+05:30  INFO 31344 --- [fuel-tracker] [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T10:11:19.408+05:30  INFO 31344 --- [fuel-tracker] [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T10:11:19.408+05:30  INFO 31344 --- [fuel-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 757 ms
+2025-11-06T10:11:19.870+05:30  INFO 31344 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T10:11:19.883+05:30  INFO 31344 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Started FuelTrackerApplication in 1.697 seconds (process running for 2.425)
+2025-11-06T10:11:19.883+05:30  INFO 31344 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T10:11:20.252+05:30  INFO 31344 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: a63b7d0a-d0d4-4b4c-b323-056c2063bf76
+2025-11-06T10:11:20.254+05:30  INFO 31344 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T10:11:23.009+05:30  INFO 31344 --- [fuel-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06T10:11:23.009+05:30  INFO 31344 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-06T10:11:23.010+05:30  INFO 31344 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2025-11-06T10:11:23.044+05:30  INFO 31344 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-06T10:11:23.059+05:30 DEBUG 31344 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : Fetched 9 records from database
+2025-11-06T10:11:23.107+05:30  INFO 31344 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-06T10:11:23.109+05:30 DEBUG 31344 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : Fetched 9 records from database
+2025-11-06T10:11:29.301+05:30  INFO 31344 --- [fuel-tracker] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-06T10:11:29.301+05:30  INFO 31344 --- [fuel-tracker] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-06T10:11:29.312+05:30  INFO 31344 --- [fuel-tracker] [tomcat-shutdown] o.s.b.w.e.t.GracefulShutdown             : Graceful shutdown complete
+2025-11-06T10:11:29.312+05:30  INFO 31344 --- [fuel-tracker] [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T10:11:29.312+05:30  INFO 31344 --- [fuel-tracker] [RMI TCP Connection(2)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T10:11:33.019+05:30  INFO 25472 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Starting FuelTrackerApplication using Java 21.0.8 with PID 25472 (C:\Users\kishorkumar\Documents\java\fuel-tracker\target\classes started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T10:11:33.026+05:30 DEBUG 25472 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T10:11:33.028+05:30  INFO 25472 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T10:11:33.798+05:30  INFO 25472 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T10:11:33.815+05:30  INFO 25472 --- [fuel-tracker] [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T10:11:33.815+05:30  INFO 25472 --- [fuel-tracker] [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T10:11:33.855+05:30  INFO 25472 --- [fuel-tracker] [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T10:11:33.856+05:30  INFO 25472 --- [fuel-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 784 ms
+2025-11-06T10:11:34.343+05:30  INFO 25472 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T10:11:34.350+05:30  INFO 25472 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Started FuelTrackerApplication in 1.79 seconds (process running for 2.693)
+2025-11-06T10:11:34.358+05:30  INFO 25472 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T10:11:34.720+05:30  INFO 25472 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 045cd737-23b5-44c1-94d3-ae3d3234bc87
+2025-11-06T10:11:34.722+05:30  INFO 25472 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T10:11:56.470+05:30  INFO 25472 --- [fuel-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06T10:11:56.470+05:30  INFO 25472 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-06T10:11:56.470+05:30  INFO 25472 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2025-11-06T10:12:08.248+05:30  INFO 25472 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📘 Request to add fuel log for vehicle: TN23AB1234
+2025-11-06T10:12:52.868+05:30 DEBUG 25472 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : ✅ Fuel log added: Vehicle=TN23AB1234 Liters=12.0 Price=432123.0 Date=2025-11-06
+2025-11-06T10:14:12.016+05:30  INFO 32500 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Starting FuelTrackerApplication using Java 21.0.8 with PID 32500 (C:\Users\kishorkumar\Documents\java\fuel-tracker\target\classes started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T10:14:12.022+05:30 DEBUG 32500 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T10:14:12.023+05:30  INFO 32500 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T10:14:12.825+05:30  INFO 32500 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T10:14:12.840+05:30  INFO 32500 --- [fuel-tracker] [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T10:14:12.841+05:30  INFO 32500 --- [fuel-tracker] [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T10:14:12.880+05:30  INFO 32500 --- [fuel-tracker] [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T10:14:12.880+05:30  INFO 32500 --- [fuel-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 818 ms
+2025-11-06T10:14:13.356+05:30  INFO 32500 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T10:14:13.363+05:30  INFO 32500 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Started FuelTrackerApplication in 1.791 seconds (process running for 2.686)
+2025-11-06T10:14:13.371+05:30  INFO 32500 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T10:14:13.735+05:30  INFO 32500 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: e87bcc7c-8c1b-4b73-bb0b-40db3581a082
+2025-11-06T10:14:13.737+05:30  INFO 32500 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T10:14:42.576+05:30  INFO 32500 --- [fuel-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06T10:14:42.576+05:30  INFO 32500 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-06T10:14:42.576+05:30  INFO 32500 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2025-11-06T10:14:49.833+05:30  INFO 32500 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📘 Request to add fuel log for vehicle: TN23SD11235
+2025-11-06T10:14:57.164+05:30 DEBUG 32500 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : ✅ Fuel log added: Vehicle=TN23SD11235 Liters=21.0 Price=21468.0 Date=2025-11-06
+2025-11-06T10:16:07.978+05:30  INFO 32500 --- [fuel-tracker] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-06T10:16:07.980+05:30  INFO 32500 --- [fuel-tracker] [RMI TCP Connection(5)-127.0.0.1] o.s.b.w.e.t.GracefulShutdown             : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-06T10:16:09.212+05:30  INFO 32500 --- [fuel-tracker] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-11-06T10:16:16.576+05:30  INFO 19200 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Starting FuelTrackerApplication using Java 21.0.8 with PID 19200 (C:\Users\kishorkumar\Documents\java\fuel-tracker\target\classes started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T10:16:16.582+05:30 DEBUG 19200 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T10:16:16.584+05:30  INFO 19200 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T10:16:17.381+05:30  INFO 19200 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T10:16:17.396+05:30  INFO 19200 --- [fuel-tracker] [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T10:16:17.396+05:30  INFO 19200 --- [fuel-tracker] [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T10:16:17.438+05:30  INFO 19200 --- [fuel-tracker] [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T10:16:17.439+05:30  INFO 19200 --- [fuel-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 814 ms
+2025-11-06T10:16:17.935+05:30  INFO 19200 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T10:16:17.942+05:30  INFO 19200 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Started FuelTrackerApplication in 1.81 seconds (process running for 2.703)
+2025-11-06T10:16:17.950+05:30  INFO 19200 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T10:16:18.268+05:30  INFO 19200 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 081f52f2-348d-4db1-aefd-cd3602fcaf48
+2025-11-06T10:16:18.271+05:30  INFO 19200 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T10:16:23.224+05:30  INFO 19200 --- [fuel-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06T10:16:23.224+05:30  INFO 19200 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-06T10:16:23.225+05:30  INFO 19200 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2025-11-06T10:16:33.318+05:30 DEBUG 19200 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : Fetched {} records from database
+2025-11-06T10:16:53.885+05:30  INFO 19200 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-06T10:52:07.329+05:30  INFO 3616 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Starting FuelTrackerApplicationTests using Java 21.0.8 with PID 3616 (started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T10:52:07.342+05:30 DEBUG 3616 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T10:52:07.345+05:30  INFO 3616 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T10:52:09.016+05:30  INFO 3616 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Started FuelTrackerApplicationTests in 2.141 seconds (process running for 3.606)
+2025-11-06T10:52:09.029+05:30  INFO 3616 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T10:52:09.433+05:30  INFO 3616 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 95039995-2280-4865-b26a-03b3ac21a801
+2025-11-06T10:52:09.434+05:30  INFO 3616 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T10:52:10.452+05:30  INFO 3616 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T10:52:10.455+05:30  INFO 3616 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T10:57:50.664+05:30  INFO 22736 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Starting FuelTrackerApplication using Java 21.0.8 with PID 22736 (C:\Users\kishorkumar\Documents\java\fuel-tracker\target\classes started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T10:57:50.671+05:30 DEBUG 22736 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T10:57:50.673+05:30  INFO 22736 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T10:57:51.431+05:30  INFO 22736 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T10:57:51.446+05:30  INFO 22736 --- [fuel-tracker] [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T10:57:51.446+05:30  INFO 22736 --- [fuel-tracker] [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T10:57:51.483+05:30  INFO 22736 --- [fuel-tracker] [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T10:57:51.484+05:30  INFO 22736 --- [fuel-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 767 ms
+2025-11-06T10:57:51.935+05:30  INFO 22736 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T10:57:51.942+05:30  INFO 22736 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Started FuelTrackerApplication in 1.667 seconds (process running for 2.361)
+2025-11-06T10:57:51.949+05:30  INFO 22736 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T10:57:52.308+05:30  INFO 22736 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: bf4f7463-9413-4af7-b05e-afb5d182b10a
+2025-11-06T10:57:52.310+05:30  INFO 22736 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T11:02:24.994+05:30  INFO 12276 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Starting FuelTrackerApplicationTests using Java 21.0.8 with PID 12276 (started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T11:02:25.010+05:30 DEBUG 12276 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T11:02:25.014+05:30  INFO 12276 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T11:02:26.457+05:30  INFO 12276 --- [fuel-tracker] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T11:02:26.805+05:30  INFO 12276 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Started FuelTrackerApplicationTests in 2.322 seconds (process running for 3.585)
+2025-11-06T11:02:26.823+05:30  INFO 12276 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T11:02:27.208+05:30  INFO 12276 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: fe748b5f-2f60-4601-9770-64785fd8b36a
+2025-11-06T11:02:27.210+05:30  INFO 12276 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T11:02:28.333+05:30  INFO 12276 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T11:02:28.336+05:30  INFO 12276 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T11:22:31.197+05:30  INFO 34920 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Starting FuelTrackerApplicationTests using Java 21.0.8 with PID 34920 (started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T11:22:31.208+05:30 DEBUG 34920 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T11:22:31.212+05:30  INFO 34920 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T11:22:32.621+05:30  INFO 34920 --- [fuel-tracker] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T11:22:32.983+05:30  INFO 34920 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Started FuelTrackerApplicationTests in 2.296 seconds (process running for 3.58)
+2025-11-06T11:22:33.002+05:30  INFO 34920 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T11:22:33.362+05:30  INFO 34920 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: d9544814-0e13-4684-8f5f-38047f3e4459
+2025-11-06T11:22:33.364+05:30  INFO 34920 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T11:22:34.504+05:30  INFO 34920 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T11:22:34.507+05:30  INFO 34920 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T11:28:37.552+05:30  INFO 7348 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Starting FuelTrackerApplicationTests using Java 21.0.8 with PID 7348 (started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T11:28:37.566+05:30 DEBUG 7348 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T11:28:37.568+05:30  INFO 7348 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T11:28:39.114+05:30  INFO 7348 --- [fuel-tracker] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T11:28:39.442+05:30  INFO 7348 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Started FuelTrackerApplicationTests in 2.394 seconds (process running for 3.744)
+2025-11-06T11:28:39.456+05:30  INFO 7348 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T11:28:39.844+05:30  INFO 7348 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 76714917-bb65-4ae4-888c-25498c1d3f9e
+2025-11-06T11:28:39.846+05:30  INFO 7348 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T11:28:40.873+05:30  INFO 7348 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T11:28:40.876+05:30  INFO 7348 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T11:43:32.944+05:30  INFO 23460 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Starting FuelTrackerApplicationTests using Java 21.0.8 with PID 23460 (started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T11:43:32.962+05:30 DEBUG 23460 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T11:43:32.966+05:30  INFO 23460 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T11:43:34.381+05:30  INFO 23460 --- [fuel-tracker] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T11:43:34.707+05:30  INFO 23460 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Started FuelTrackerApplicationTests in 2.255 seconds (process running for 3.823)
+2025-11-06T11:43:34.722+05:30  INFO 23460 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T11:43:35.145+05:30  INFO 23460 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 75d68746-2bc6-425a-a51b-f44449de4d2f
+2025-11-06T11:43:35.147+05:30  INFO 23460 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T11:43:36.156+05:30  INFO 23460 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T11:43:36.158+05:30  INFO 23460 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T11:52:13.106+05:30  INFO 688 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Starting FuelTrackerApplicationTests using Java 21.0.8 with PID 688 (started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T11:52:13.124+05:30 DEBUG 688 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T11:52:13.127+05:30  INFO 688 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T11:52:14.560+05:30  INFO 688 --- [fuel-tracker] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T11:52:14.896+05:30  INFO 688 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Started FuelTrackerApplicationTests in 2.278 seconds (process running for 3.595)
+2025-11-06T11:52:14.912+05:30  INFO 688 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T11:52:15.323+05:30  INFO 688 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 9782c3f8-991c-47ab-9d1c-cbe8fcb10e7f
+2025-11-06T11:52:15.325+05:30  INFO 688 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T11:52:16.406+05:30  INFO 688 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T11:52:16.411+05:30  INFO 688 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T12:19:32.015+05:30  INFO 33876 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Starting FuelTrackerApplicationTests using Java 21.0.8 with PID 33876 (started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T12:19:32.031+05:30 DEBUG 33876 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T12:19:32.036+05:30  INFO 33876 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T12:19:33.526+05:30  INFO 33876 --- [fuel-tracker] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T12:19:33.802+05:30  INFO 33876 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Started FuelTrackerApplicationTests in 2.248 seconds (process running for 3.836)
+2025-11-06T12:19:33.823+05:30  INFO 33876 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T12:19:34.207+05:30  INFO 33876 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 4dcaab50-5982-43d5-b768-40df6b49eb90
+2025-11-06T12:19:34.209+05:30  INFO 33876 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T12:19:35.244+05:30  INFO 33876 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T12:19:35.248+05:30  INFO 33876 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T12:26:45.484+05:30  INFO 22736 --- [fuel-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06T12:26:45.501+05:30  INFO 22736 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-06T12:26:45.535+05:30  INFO 22736 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 34 ms
+2025-11-06T12:26:45.653+05:30  INFO 22736 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-06T12:26:45.723+05:30 DEBUG 22736 --- [fuel-tracker] [http-nio-8080-exec-1] c.e.f.c.FuelController                   : Fetched 12 records from database
+2025-11-06T12:26:45.855+05:30  INFO 22736 --- [fuel-tracker] [http-nio-8080-exec-2] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-06T12:26:45.857+05:30 DEBUG 22736 --- [fuel-tracker] [http-nio-8080-exec-2] c.e.f.c.FuelController                   : Fetched 12 records from database
+2025-11-06T12:30:06.709+05:30  INFO 22736 --- [fuel-tracker] [http-nio-8080-exec-5] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-06T12:30:06.740+05:30 DEBUG 22736 --- [fuel-tracker] [http-nio-8080-exec-5] c.e.f.c.FuelController                   : Fetched 12 records from database
+2025-11-06T12:30:06.743+05:30  INFO 22736 --- [fuel-tracker] [http-nio-8080-exec-6] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-06T12:30:06.745+05:30 DEBUG 22736 --- [fuel-tracker] [http-nio-8080-exec-6] c.e.f.c.FuelController                   : Fetched 12 records from database
+2025-11-06T12:35:10.502+05:30  INFO 22736 --- [fuel-tracker] [http-nio-8080-exec-8] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-06T12:35:10.511+05:30 DEBUG 22736 --- [fuel-tracker] [http-nio-8080-exec-8] c.e.f.c.FuelController                   : Fetched 12 records from database
+2025-11-06T12:35:10.515+05:30  INFO 22736 --- [fuel-tracker] [http-nio-8080-exec-9] c.e.f.c.FuelController                   : 📗 Fetching all fuel logs...
+2025-11-06T12:35:10.515+05:30 DEBUG 22736 --- [fuel-tracker] [http-nio-8080-exec-9] c.e.f.c.FuelController                   : Fetched 12 records from database
+2025-11-06T15:30:45.480+05:30  INFO 24396 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Starting FuelTrackerApplicationTests using Java 21.0.8 with PID 24396 (started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T15:30:45.500+05:30 DEBUG 24396 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T15:30:45.503+05:30  INFO 24396 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T15:30:46.961+05:30  INFO 24396 --- [fuel-tracker] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T15:30:47.289+05:30  INFO 24396 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Started FuelTrackerApplicationTests in 2.267 seconds (process running for 3.817)
+2025-11-06T15:30:47.309+05:30  INFO 24396 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T15:30:47.747+05:30  INFO 24396 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 464fdf45-c10d-4bd6-801a-80d0a26dc122
+2025-11-06T15:30:47.749+05:30  INFO 24396 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T15:30:48.875+05:30  INFO 24396 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T15:30:48.878+05:30  INFO 24396 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T16:21:58.402+05:30  INFO 19716 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Starting FuelTrackerApplication using Java 21.0.8 with PID 19716 (C:\Users\kishorkumar\Documents\java\fuel-tracker\target\classes started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T16:21:58.412+05:30 DEBUG 19716 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T16:21:58.414+05:30  INFO 19716 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T16:21:59.114+05:30  INFO 19716 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+2025-11-06T16:21:59.127+05:30  INFO 19716 --- [fuel-tracker] [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-11-06T16:21:59.127+05:30  INFO 19716 --- [fuel-tracker] [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-06T16:21:59.162+05:30  INFO 19716 --- [fuel-tracker] [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2025-11-06T16:21:59.162+05:30  INFO 19716 --- [fuel-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 706 ms
+2025-11-06T16:21:59.400+05:30  INFO 19716 --- [fuel-tracker] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2025-11-06T16:21:59.658+05:30  INFO 19716 --- [fuel-tracker] [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+2025-11-06T16:21:59.664+05:30  INFO 19716 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplication             : Started FuelTrackerApplication in 1.666 seconds (process running for 2.399)
+2025-11-06T16:21:59.670+05:30  INFO 19716 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T16:21:59.960+05:30  INFO 19716 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 15bb7fa7-2a50-4163-ba41-f74258beaf5d
+2025-11-06T16:21:59.962+05:30  INFO 19716 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T17:21:30.976+05:30  INFO 14876 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Starting FuelTrackerApplicationTests using Java 21.0.8 with PID 14876 (started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T17:21:30.993+05:30 DEBUG 14876 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T17:21:30.993+05:30  INFO 14876 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T17:21:32.781+05:30  INFO 14876 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Started FuelTrackerApplicationTests in 2.283 seconds (process running for 3.753)
+2025-11-06T17:21:32.799+05:30  INFO 14876 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T17:21:33.205+05:30  INFO 14876 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: 72a940c9-656c-455a-98fc-449a6be8a010
+2025-11-06T17:21:33.205+05:30  INFO 14876 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T17:21:34.169+05:30  INFO 14876 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T17:21:34.171+05:30  INFO 14876 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-11-06T17:21:53.465+05:30  INFO 19716 --- [fuel-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-06T17:21:53.466+05:30  INFO 19716 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-11-06T17:21:53.467+05:30  INFO 19716 --- [fuel-tracker] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2025-11-06T17:26:22.289+05:30  INFO 10832 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Starting FuelTrackerApplicationTests using Java 21.0.8 with PID 10832 (started by kishorkumar in C:\Users\kishorkumar\Documents\java\fuel-tracker)
+2025-11-06T17:26:22.307+05:30 DEBUG 10832 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-06T17:26:22.311+05:30  INFO 10832 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-11-06T17:26:24.089+05:30  INFO 10832 --- [fuel-tracker] [main] c.e.f.FuelTrackerApplicationTests        : Started FuelTrackerApplicationTests in 2.285 seconds (process running for 3.532)
+2025-11-06T17:26:24.102+05:30  INFO 10832 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-11-06T17:26:24.478+05:30  INFO 10832 --- [fuel-tracker] [main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection ConnectionID:1 ClientConnectionId: cf6148c5-0ab0-4756-be39-a3287c6d44c9
+2025-11-06T17:26:24.481+05:30  INFO 10832 --- [fuel-tracker] [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-11-06T17:26:25.419+05:30  INFO 10832 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-11-06T17:26:25.422+05:30  INFO 10832 --- [fuel-tracker] [SpringApplicationShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
