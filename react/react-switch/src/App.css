@@ -1,0 +1,85 @@
+/* 🎓 App.css - Student Management UI */
+body {
+  background: linear-gradient(135deg, #dbeafe, #f0f9ff);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #1e293b;
+}
+
+div {
+  max-width: 600px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+div:hover {
+  transform: translateY(-3px);
+}
+
+h2 {
+  text-align: center;
+  color: #2563eb;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+input {
+  width: 42%;
+  padding: 10px 12px;
+  margin: 8px 5px;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+  transition: border 0.3s, box-shadow 0.3s;
+  font-size: 1rem;
+}
+
+input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 8px rgba(37, 99, 235, 0.3);
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.05);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+li {
+  background-color: #f8fafc;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border-left: 5px solid #2563eb;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.05rem;
+}
+
+li:hover {
+  background-color: #e0f2fe;
+  transition: background-color 0.3s;
+}
