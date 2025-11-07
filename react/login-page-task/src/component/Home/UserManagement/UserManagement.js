@@ -109,7 +109,7 @@ export default function UserManagement() {
           </div>
 
           {/* Grid + Panel */}
-          <div className="flex-1 mx-4 flex bg-white rounded shadow overflow-hidden">
+          <div className="flex-1 z-25 mx-4 flex bg-white rounded shadow overflow-hidden">
             <div className="w-1/2">
               <UserGrid
                 data={data}
