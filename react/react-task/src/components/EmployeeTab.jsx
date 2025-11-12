@@ -1,21 +1,31 @@
 import React, { useEffect, useState } from "react";
 import api from "../api/axiosConfig";
+import UpdateEmployeeModal from "./UpdateEmployeeModal";
+import DeleteEmployeeModal from "./DeleteEmployeeModal";
 
 export default function EmployeeTab({ user }) {
   const [employees, setEmployees] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [selectedEmp, setSelectedEmp] = useState(null); // row selected
-  const [editData, setEditData] = useState({});
-  const [showModal, setShowModal] = useState(false);
-  const [successMsg, setSuccessMsg] = useState(""); // for popup message
+  const [selectedEmp, setSelectedEmp] = useState(null);
+  const [successMsg, setSuccessMsg] = useState("");
+  const [showUpdateModal, setShowUpdateModal] = useState(false);
+  const [showDeleteModal, setShowDeleteModal] = useState(false);
+
+  // Pagination state
+  const [currentPage, setCurrentPage] = useState(1);
+  const rowsPerPage = 5;
 
   useEffect(() => {
     const fetchEmployees = async () => {
       try {
-        const res = await api.post("/dashboard/data", { role: user.role });
+        const res = await api.post("/dashboard/data", {
+          role: user.role,
+          team: user.team,
+          username: user.username,
+        });
+
         let empList = res.data.employees || [];
 
-        // Role-based filtering
         if (user.role === "MANAGER") {
           empList = empList.filter((e) => e.team === user.team);
         } else if (user.role === "EMPLOYEE") {
@@ -35,37 +45,63 @@ export default function EmployeeTab({ user }) {
   }, [user]);
 
   const handleRowClick = (emp) => {
-    setSelectedEmp(emp);
+    if (emp.username !== user.username) setSelectedEmp(emp);
   };
 
   const handleUpdateClick = () => {
-    if (!selectedEmp) {
-      alert("Please select an employee first!");
-      return;
-    }
-    setEditData(selectedEmp);
-    setShowModal(true);
+    if (!selectedEmp) return alert("Select an employee first!");
+    if (selectedEmp.username === user.username)
+      return alert("You cannot update your own data!");
+    setShowUpdateModal(true);
   };
 
-  const handleSaveClick = async () => {
-    try {
-      await api.post("/master/employee/update", editData);
-      setEmployees((prev) =>
-        prev.map((emp) => (emp.id === editData.id ? editData : emp))
-      );
-      setShowModal(false);
-      setSuccessMsg("Employee updated successfully!");
-      // Hide message after 3 seconds
-      setTimeout(() => setSuccessMsg(""), 3000);
-    } catch (err) {
-      console.error("Update failed:", err);
-      alert("Failed to update employee");
-    }
+  const handleDeleteClick = () => {
+    if (!selectedEmp) return alert("Select an employee first!");
+    if (selectedEmp.username === user.username)
+      return alert("You cannot delete your own account!");
+    setShowDeleteModal(true);
   };
 
-  const handleChange = (field, value) => {
-    setEditData({ ...editData, [field]: value });
+const handleUpdateSuccess = async () => {
+  setShowUpdateModal(false);
+  showSuccess("Employee updated successfully!");
+  
+  try {
+    const res = await api.post("/dashboard/data", {
+      role: user.role,
+      team: user.team,
+      username: user.username,
+    });
+    setEmployees(res.data.employees || []);
+  } catch (err) {
+    console.error("Failed to refresh employees:", err);
+  }
+};
+
+
+
+  const handleDeleteSuccess = (deletedId) => {
+    setEmployees((prev) => prev.filter((emp) => emp.id !== deletedId));
+    setSelectedEmp(null);
+    setShowDeleteModal(false);
+    showSuccess("Employee deleted successfully!");
   };
+
+  const showSuccess = (msg) => {
+    setSuccessMsg(msg);
+    setTimeout(() => setSuccessMsg(""), 3000);
+  };
+
+  // Pagination logic
+const totalPages = Math.ceil(employees.length / rowsPerPage);
+const startIndex = (currentPage - 1) * rowsPerPage;
+const currentEmployees = employees.slice(startIndex, startIndex + rowsPerPage);
+
+const goToPage = (page) => {
+  if (page < 1 || page > totalPages) return;
+  setSelectedEmp(null);
+  setCurrentPage(page);
+};
 
   if (loading) return <p>Loading employees...</p>;
   if (!employees.length) return <p>No employees found.</p>;
@@ -73,144 +109,113 @@ export default function EmployeeTab({ user }) {
   return (
     <div className="bg-white shadow-md rounded-xl p-6 overflow-x-auto relative">
       <h2 className="text-lg font-semibold mb-4">Employee Details</h2>
-      
-      {/* Success message */}
+
       {successMsg && (
-        <div className="fixed top-4 right-4 bg-green-500 text-white px-4 py-2 rounded shadow-lg z-50">
+        <div className="fixed top-4 right-4 bg-blue-500 text-white px-4 py-2 rounded shadow-lg z-50">
           {successMsg}
         </div>
       )}
 
-      <table className="w-full text-left border-collapse">
-        <thead>
-          <tr className="border-b p-6 bg-gray-50">
-            <th>ID</th>
-            <th>Username</th>
-            <th>Full Name</th>
-            <th>Team</th>
-            <th>Designation</th>
-            <th>Role</th>
-            <th>Salary</th>
-            <th>Status</th>
-          </tr>
-        </thead>
-        <tbody>
-          {employees.map((emp) => (
-            <tr
-              key={emp.id}
-              className={`border-b hover:bg-gray-50 cursor-pointer ${
-                selectedEmp?.id === emp.id ? "bg-blue-100" : ""
-              }`}
-              onClick={() => handleRowClick(emp)}
-            >
-              <td>{emp.id}</td>
-              <td>{emp.username}</td>
-              <td>{emp.full_name}</td>
-              <td>{emp.team}</td>
-              <td>{emp.designation}</td>
-              <td>{emp.role}</td>
-              <td>{emp.salary}</td>
-              <td>{emp.status}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+<table className="w-full text-left border-collapse">
+  <thead>
+    <tr className="border-b p-6 bg-gray-50">
+      <th className="border p-2">ID</th>
+      <th className="border p-2">Username</th>
+      <th className="border p-2">Full Name</th>
+      <th className="border p-2">Team</th>
+      <th className="border p-2">Designation</th>
+      <th className="border p-2">Role</th>
+      <th className="border p-2">Salary</th>
+      <th className="border p-2">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {currentEmployees.map((emp, idx) => (
+      <tr
+        key={emp.id || idx} // Make sure key is unique
+        className={`border-b hover:bg-gray-50 cursor-pointer ${
+          selectedEmp?.id === emp.id ? "bg-blue-100" : ""
+        } ${
+          emp.username === user.username
+            ? "bg-gray-200 cursor-not-allowed"
+            : ""
+        }`}
+        onClick={() => handleRowClick(emp)}
+      >
+        <td className="border p-2">{emp.id}</td>
+        <td className="border p-2">{emp.username}</td>
+        <td className="border p-2">{emp.full_name}</td>
+        <td className="border p-2">{emp.team}</td>
+        <td className="border p-2">{emp.designation}</td>
+        <td className="border p-2">{emp.role}</td>
+        <td className="border p-2">{emp.salary}</td>
+        <td className="border p-2">{emp.status}</td>
+      </tr>
+    ))}
+  </tbody>
+</table>
 
-      {/* Update Button */}
+<div className="flex justify-between items-center mt-4">
+  <button
+    onClick={() => goToPage(currentPage - 1)}
+    disabled={currentPage === 1}
+    className={`px-4 py-2 rounded ${
+      currentPage === 1
+        ? "bg-gray-200 text-gray-500 cursor-not-allowed"
+        : "bg-blue-500 text-white hover:bg-blue-600"
+    }`}
+  >
+    Previous
+  </button>
+
+  <span className="text-gray-700">
+    Page <strong>{currentPage}</strong> of <strong>{totalPages}</strong>
+  </span>
+
+  <button
+    onClick={() => goToPage(currentPage + 1)}
+    disabled={currentPage === totalPages}
+    className={`px-4 py-2 rounded ${
+      currentPage === totalPages
+        ? "bg-gray-200 text-gray-500 cursor-not-allowed"
+        : "bg-blue-500 text-white hover:bg-blue-600"
+    }`}
+  >
+    Next
+  </button>
+</div>
+
       {(user.role === "Admin" || user.role === "MANAGER") && (
-        <button
-          className="fixed bottom-8 right-8 bg-blue-500 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-600"
-          onClick={handleUpdateClick}
-        >
-          Update Selected Employee
-        </button>
+        <div className="fixed bottom-8 right-8 flex gap-4">
+          <button
+            className="bg-blue-500 text-white px-3 py-1 rounded-lg shadow-lg hover:bg-blue-600"
+            onClick={handleUpdateClick}
+          >
+            Update
+          </button>
+          <button
+            className="bg-blue-500 text-white px-3 py-1 rounded-lg shadow-lg hover:bg-blue-600"
+            onClick={handleDeleteClick}
+          >
+            Delete
+          </button>
+        </div>
       )}
 
-      {/* Modal */}
-      {showModal && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-          <div className="bg-white rounded-xl shadow-lg p-6 w-96 relative">
-            <h3 className="text-lg font-semibold mb-4">Edit Employee</h3>
+      {showUpdateModal && (
+        <UpdateEmployeeModal
+          employee={selectedEmp}
+          onClose={() => setShowUpdateModal(false)}
+          onSuccess={handleUpdateSuccess}
+        />
+      )}
 
-            <div className="space-y-3">
-              <div>
-                <label className="block text-sm font-medium">Full Name</label>
-                <input
-                  type="text"
-                  value={editData.full_name || ""}
-                  onChange={(e) => handleChange("full_name", e.target.value)}
-                  className="w-full border p-2 rounded"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium">Team</label>
-                <input
-                  type="text"
-                  value={editData.team || ""}
-                  onChange={(e) => handleChange("team", e.target.value)}
-                  className="w-full border p-2 rounded"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium">Designation</label>
-                <input
-                  type="text"
-                  value={editData.designation || ""}
-                  onChange={(e) => handleChange("designation", e.target.value)}
-                  className="w-full border p-2 rounded"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium">Role</label>
-                <select
-                  value={editData.role ?? ""}
-                  onChange={(e) => handleChange("role", e.target.value || null)}
-                  className="w-full border p-2 rounded"
-                >
-                  <option value="">Select Role</option>
-                  <option value="Admin">Admin</option>
-                  <option value="MANAGER">MANAGER</option>
-                  <option value="EMPLOYEE">EMPLOYEE</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-sm font-medium">Salary</label>
-                <input
-                  type="number"
-                  value={editData.salary ?? 0}
-                  onChange={(e) => handleChange("salary", e.target.value)}
-                  className="w-full border p-2 rounded"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium">Status</label>
-                <select
-                  value={editData.status ?? "Active"}
-                  onChange={(e) => handleChange("status", e.target.value || null)}
-                  className="w-full border p-2 rounded"
-                >
-                  <option value="Active">Active</option>
-                  <option value="Inactive">Inactive</option>
-                </select>
-              </div>
-            </div>
-
-            <div className="flex justify-end mt-6 space-x-3">
-              <button
-                className="px-4 py-2 rounded bg-gray-300 hover:bg-gray-400"
-                onClick={() => setShowModal(false)}
-              >
-                Cancel
-              </button>
-              <button
-                className="px-4 py-2 rounded bg-green-500 text-white hover:bg-green-600"
-                onClick={handleSaveClick}
-              >
-                Save
-              </button>
-            </div>
-          </div>
-        </div>
+      {showDeleteModal && (
+        <DeleteEmployeeModal
+          employee={selectedEmp}
+          onClose={() => setShowDeleteModal(false)}
+          onSuccess={handleDeleteSuccess}
+        />
       )}
     </div>
   );

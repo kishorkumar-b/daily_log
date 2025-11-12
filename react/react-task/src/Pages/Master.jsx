@@ -4,6 +4,7 @@ import ProductTab from "../components/ProductTab";
 import RevenueTab from "../components/RevenueTab";
 
 export default function Master({user}) {
+  console.log("User in Master page:", user);
   const [activeTab, setActiveTab] = useState("employee"); // default tab
 
   const tabs = [
@@ -34,8 +35,8 @@ export default function Master({user}) {
       {/* Tab Content */}
       <div>
         {activeTab === "employee" && <EmployeeTab user={user}/>}
-        {activeTab === "product" && <ProductTab />}
-        {activeTab === "revenue" && <RevenueTab />}
+        {activeTab === "product" && <ProductTab user={user}/>}
+        {activeTab === "revenue" && <RevenueTab user={user}/>}
       </div>
     </div>
   );

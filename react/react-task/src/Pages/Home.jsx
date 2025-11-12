@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import Dashboard from "./Dashboard";
 import Master from "./Master";
 
-export default function HomePage({user, setPage }) {
+export default function Home({user, setUser }) {
   const [selectedPage, setSelectedPage] = useState("dashboard");
 
   const renderPage = () => {
@@ -25,7 +25,7 @@ export default function HomePage({user, setPage }) {
 
       {/* Main content */}
       <div className="flex-1 flex flex-col">
-        <Header username={user?.full_name || user?.username} />
+        <Header username={user?.full_name || user?.username} user={user} setUser={setUser}  />
 
 
         <main className="flex-1 p-6 overflow-auto">{renderPage()}</main>

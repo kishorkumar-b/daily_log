@@ -18,11 +18,11 @@ export default function RevenueChart({ revenueData }) {
     );
   }
 
-  // 💡 Add a frontend-only target (example: ₹20,000 per month)
+ 
   const formattedData = revenueData.map((item) => ({
     month: item.month,
     revenue: Number(item.revenue) || 0,
-    target: 20000, // 🔹 Fixed target value (can be dynamic if needed)
+    target: 20000,
   }));
 
   return (

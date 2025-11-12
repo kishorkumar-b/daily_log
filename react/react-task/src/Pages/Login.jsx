@@ -44,8 +44,13 @@ export default function Login({ setUser, setPendingUser }) {
         alert("Your account is inactive. Please contact the administrator.");
       }
       else if (res.data.status === "success") {
-        setUser({ username: res.data.username, role: res.data.role });
-      } else {
+      setUser({
+        username: res.data.username,
+        role: res.data.role,
+        team: res.data.team, // ✅ added
+      });
+}
+ else {
         alert(res.data.message || "Invalid login");
       }
     } catch (err) {
