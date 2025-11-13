@@ -79,7 +79,7 @@ export default function ProductTab({ user }) {
 
       const res = await api.post("/master/product/add", payload);
 
-      showSuccess(res.data || "✅ Product added successfully!");
+      showSuccess(res.data || " Product added successfully!");
       setNewProduct({
         product_id: "",
         product_name: "",
@@ -92,7 +92,7 @@ export default function ProductTab({ user }) {
       fetchProducts();
     } catch (error) {
       console.error("Error adding product:", error);
-      alert("❌ Failed to add product");
+      alert("Failed to add product");
     }
   };
 
