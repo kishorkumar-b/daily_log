@@ -4,6 +4,7 @@ import UpdateProductModal from "./UpdateProductModal";
 import DeleteProductModal from "./DeleteProductModal";
 
 export default function ProductTab({ user }) {
+
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -34,6 +35,8 @@ export default function ProductTab({ user }) {
       });
 
       let allProducts = res.data.products || [];
+      console.log("All products: " + JSON.stringify(allProducts, null, 2));
+
 
       // Role-based filtering
       if (user.role === "MANAGER" || user.role === "EMPLOYEE") {
@@ -51,6 +54,13 @@ export default function ProductTab({ user }) {
   useEffect(() => {
     if (user?.username) fetchProducts();
   }, [user]);
+   if (!user?.role) {
+    return (
+      <p className="text-red-600 font-semibold">
+        Admin has not given access. Please contact the administrator.
+      </p>
+    );
+  }
 
   const handleAdd = async () => {
     if (user.role !== "Admin" && user.role !== "MANAGER") {
@@ -60,7 +70,7 @@ export default function ProductTab({ user }) {
 
     const { product_id, product_name, budget, total_employees, team } = newProduct;
 
-    if (!product_id || !product_name || !budget || !total_employees || !team) {
+    if (!product_id || !product_name || !budget || !total_employees || total_employees<=0 || !team) {
       alert("Please fill in all fields!");
       return;
     }
@@ -243,7 +253,7 @@ export default function ProductTab({ user }) {
           {currentProducts.map((p) => (
             <tr
               key={p.product_id}
-              className={`border-b hover:bg-gray-50 cursor-pointer ${
+              className={`border-b cursor-pointer ${
                 selectedProduct?.product_id === p.product_id ? "bg-blue-100" : ""
               }`}
               onClick={() => handleRowClick(p)}
@@ -291,7 +301,7 @@ export default function ProductTab({ user }) {
       </div>
 
       {(user.role === "Admin" || user.role === "MANAGER") && (
-        <div className="fixed bottom-8 right-8 flex gap-4">
+        <div className="fixed bottom-1 right-8 flex gap-4">
           <button
             className="bg-blue-500 text-white px-3 py-1 rounded-lg shadow-lg hover:bg-blue-600"
             onClick={handleUpdateClick}

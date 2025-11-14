@@ -2,14 +2,21 @@ import React, { useEffect, useState } from "react";
 import api from "../api/axiosConfig";
 
 export default function TeamRevenueTab({ user }) {
+  const getCurrentMonth = () => {
+  const now = new Date();
+  return now.toISOString().slice(0, 7); // YYYY-MM
+};
+
+
   const [revenues, setRevenues] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [monthFilter, setMonthFilter] = useState("");
+  const [monthFilter, setMonthFilter] = useState(getCurrentMonth());
+
   const [successMsg, setSuccessMsg] = useState("");
 
   // Pagination
   const [currentPage, setCurrentPage] = useState(1);
-  const rowsPerPage = 6;
+  const rowsPerPage = 4;
 
   // ✅ Fetch revenue data (and auto-filter by team if EMPLOYEE)
   const fetchRevenues = async () => {
@@ -18,10 +25,14 @@ export default function TeamRevenueTab({ user }) {
       const url = monthFilter ? `/revenue/all?month=${monthFilter}` : `/revenue/all`;
       const res = await api.get(url);
       let data = res.data || [];
+      console.log("reavanu date",res);
 
       // 🔹 Show only logged-in user's team if EMPLOYEE
       if (user?.role === "EMPLOYEE" && user?.team) {
         data = data.filter((rev) => rev.team === user.team);
+      }
+      if(user?.role==="MANAGER" && user?.team){
+        data=data.filter((rev)=> rev.team === user.team);
       }
 
       setRevenues(data);
@@ -36,6 +47,14 @@ export default function TeamRevenueTab({ user }) {
   useEffect(() => {
     fetchRevenues();
   }, [monthFilter, user]);
+
+  if (!user?.role) {
+    return (
+      <p className="text-red-600 font-semibold">
+        Admin has not given access. Please contact the administrator.
+      </p>
+    );
+  }
 
   // Pagination logic
   const totalPages = Math.ceil(revenues.length / rowsPerPage);

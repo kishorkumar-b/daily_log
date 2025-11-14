@@ -26,7 +26,7 @@ public class DashboardRepository {
     }
 
     public List<Map<String, Object>> getEmployees(String role, String team, String username) {
-        String sql = "SELECT id, username, full_name, team, designation, salary, role, status FROM Users";
+        String sql = "SELECT id, username, full_name, team, designation, salary, role, status FROM Users ORDER BY status DESC";
 
             return jdbcTemplate.queryForList(sql);
     }

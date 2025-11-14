@@ -13,7 +13,6 @@ public class MasterRepository {
 
     /** 🔹 Add or update employee details */
     public void updateEmployeeDetails(Map<String, Object> emp) {
-    	String id = (String) emp.get("id");
         String username = (String) emp.get("username");
         String fullName = (String) emp.get("full_name");
         String team = (String) emp.get("team");
@@ -23,14 +22,12 @@ public class MasterRepository {
         String role = (String) emp.getOrDefault("role", null);
 
         // ✅ Fixed query syntax — commas between columns
-        String sql = "UPDATE Users SET id=?, full_name=?, team=?, designation=?, salary=?, status=?, role=? WHERE username=?";
+        String sql = "UPDATE Users SET full_name=?, team=?, designation=?, salary=?, status=?, role=? WHERE username=?";
 
-        jdbcTemplate.update(sql, id, fullName, team, designation, salary, status, role, username);
+        jdbcTemplate.update(sql, fullName, team, designation, salary, status, role, username);
 
         // ✅ Optional: Recalculate revenue after update
-        if (team != null) {
-            recalcTeamRevenue(team);
-        }
+
     }
 
 
@@ -63,8 +60,6 @@ public class MasterRepository {
             String insertSql = "INSERT INTO Products (product_id, product_name, budget, total_employees, team, status) VALUES (?, ?, ?, ?, ?, ?)";
             jdbcTemplate.update(insertSql, productId, productName, budget, totalEmployees, team, status);
 
-            // ✅ Recalculate team revenue based on all products
-            recalcTeamRevenue(team);
 
             return "✅ Product added successfully";
         } catch (Exception e) {
@@ -90,8 +85,6 @@ public class MasterRepository {
             String sql = "UPDATE Products SET product_name=?, budget=?, total_employees=?, team=?, status=? WHERE product_id=?";
             jdbcTemplate.update(sql, productName, budget, totalEmployees, team, status, productId);
 
-            // ✅ Recalculate revenue after update
-            recalcTeamRevenue(team);
 
             return "✅ Product updated successfully";
         } catch (Exception e) {
@@ -108,8 +101,6 @@ public class MasterRepository {
 
             jdbcTemplate.update("DELETE FROM Products WHERE product_id = ?", productId);
 
-            // ✅ Recalculate or remove team revenue
-            cleanOrRecalcTeamRevenue(team);
 
             return "✅ Product deleted successfully";
         } catch (Exception e) {
@@ -118,41 +109,7 @@ public class MasterRepository {
         }
     }
 
-    /** 🔹 Recalculate revenue from all products for a team */
-    private void recalcTeamRevenue(String team) {
-        try {
-            String calcSql = "SELECT SUM(budget) AS total_budget, COUNT(*) AS total_sales FROM Products WHERE team = ?";
-            Map<String, Object> result = jdbcTemplate.queryForMap(calcSql, team);
 
-            double totalBudget = result.get("total_budget") != null ? ((Number) result.get("total_budget")).doubleValue() : 0.0;
-            int totalSales = result.get("total_sales") != null ? ((Number) result.get("total_sales")).intValue() : 0;
-            double avgRevenue = totalSales > 0 ? totalBudget / totalSales : 0.0;
-
-            int exists = jdbcTemplate.queryForObject("SELECT COUNT(*) FROM TeamRevenue WHERE team = ?", Integer.class, team);
-
-            if (exists > 0) {
-                String updateSql = "UPDATE TeamRevenue SET no_of_sales=?, budget=?, average_revenue=? WHERE team=?";
-                jdbcTemplate.update(updateSql, totalSales, totalBudget, avgRevenue, team);
-            } else {
-                String insertSql = "INSERT INTO TeamRevenue(team, no_of_sales, budget, average_revenue) VALUES (?, ?, ?, ?)";
-                jdbcTemplate.update(insertSql, team, totalSales, totalBudget, avgRevenue);
-            }
-        } catch (Exception e) {
-            System.err.println("⚠️ Error recalculating revenue for " + team + ": " + e.getMessage());
-        }
-    }
-
-    /** 🔹 Remove team revenue if team has no products */
-    private void cleanOrRecalcTeamRevenue(String team) {
-        String countSql = "SELECT COUNT(*) FROM Products WHERE team = ?";
-        int productCount = jdbcTemplate.queryForObject(countSql, Integer.class, team);
-
-        if (productCount == 0) {
-            jdbcTemplate.update("DELETE FROM TeamRevenue WHERE team = ?", team);
-        } else {
-            recalcTeamRevenue(team);
-        }
-    }
 
     /** 🔹 Delete employee by username */
     public void deleteEmployeeByUsername(String username) {

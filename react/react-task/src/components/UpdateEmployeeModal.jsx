@@ -36,15 +36,6 @@ export default function UpdateEmployeeModal({ employee, onClose, onSuccess }) {
 
         <div className="space-y-3">
           {/* ✅ Add ID field */}
-          <label className="block text-sm font-medium">
-            Employee ID
-            <input
-              type="text"
-              value={editData.id || ""}
-              onChange={(e) => handleChange("id", e.target.value)}
-              className="w-full border p-2 rounded"
-            />
-          </label>
 
           <label className="block text-sm font-medium">
             Full Name

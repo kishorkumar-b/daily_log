@@ -26,50 +26,27 @@ public class MasterService {
         }
     }
 
-    /** Add product */
     public String addProduct(Map<String, Object> prod) {
-        try {
-            String result = masterRepository.addProduct(prod);
+        String result = masterRepository.addProduct(prod);
 
-            // ✅ Recalculate revenue only for the current month
-            revenueRepository.recalculateRevenue();
+        // FIX: update only current month revenue
+        revenueRepository.recalculateRevenue();
 
-            return result + " | Revenue updated ✅";
-        } catch (Exception e) {
-            e.printStackTrace();
-            return "❌ Error adding product";
-        }
+        return result + " | Current month revenue updated";
     }
 
-    /** Update product */
     public String updateProduct(Map<String, Object> prod) {
-        try {
-            String result = masterRepository.updateProduct(prod);
-
-            // ✅ Trigger recalculation for the current month
-            revenueRepository.recalculateRevenue();
-
-            return result + " | Revenue updated ✅";
-        } catch (Exception e) {
-            e.printStackTrace();
-            return "❌ Error updating product";
-        }
+        String result = masterRepository.updateProduct(prod);
+        revenueRepository.recalculateRevenue();
+        return result + " | Current month revenue updated";
     }
 
-    /** Delete product */
-    public String deleteProduct(int productId) {
-        try {
-            String result = masterRepository.deleteProduct(productId);
-
-            // ✅ Trigger recalculation again after deletion
-            revenueRepository.recalculateRevenue();
-
-            return result + " | Revenue updated ✅";
-        } catch (Exception e) {
-            e.printStackTrace();
-            return "❌ Error deleting product";
-        }
+    public String deleteProduct(int id) {
+        String result = masterRepository.deleteProduct(id);
+        revenueRepository.recalculateRevenue();
+        return result + " | Current month revenue updated";
     }
+
 
     /** Delete employee */
     public String deleteEmployee(String username, String loggedUser) {

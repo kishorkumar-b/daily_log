@@ -8,13 +8,13 @@ export default function Home({user, setUser }) {
   const [selectedPage, setSelectedPage] = useState("dashboard");
 
   const renderPage = () => {
-    switch (selectedPage) {
+    switch (selectedPage ) {
       case "dashboard":
-        return <Dashboard />;
+        return <Dashboard user={user} />;
       case "master":
         return <Master user={user} />;
       default:
-        return <Dashboard />;
+        return <Dashboard user={user}/>;
     }
   };
 

@@ -48,11 +48,14 @@ public class RevenueRepository {
             );
 
             int noOfSales = ((Number) totals.get("no_of_sales")).intValue();
-            double budget = ((Number) totals.get("budget")).doubleValue();
-            double avgRevenue = (noOfSales > 0 ? (budget / noOfSales) : 0);
-            double multiplay = Math.floor( Math.random()*10);
-            System.out.print(multiplay);
-            double totalRevenue= avgRevenue*3.25;
+            double totalBudget = ((Number) totals.get("budget")).doubleValue();
+
+            // ✅ Proper average revenue per sale
+            double avgRevenue = (noOfSales > 0 ? totalBudget / noOfSales : 0);
+
+            // ✅ Total revenue = total budget (or sum of actual sales value)
+            double totalRevenue = totalBudget*2.4;
+
             
 
             // Update or insert for current month
@@ -66,12 +69,12 @@ public class RevenueRepository {
             if (exists != null && exists > 0) {
                 jdbcTemplate.update(
                     "UPDATE TeamRevenue SET no_of_sales=?, budget=?, average_revenue=? WHERE team=? AND month=?",
-                    noOfSales, budget, totalRevenue, team, currentMonth
+                    noOfSales, totalBudget, totalRevenue, team, currentMonth
                 );
             } else {
                 jdbcTemplate.update(
                     "INSERT INTO TeamRevenue (team, month, no_of_sales, budget, average_revenue) VALUES (?, ?, ?, ?, ?)",
-                    team, currentMonth, noOfSales, budget, avgRevenue
+                    team, currentMonth, noOfSales, totalBudget, avgRevenue
                 );
             }
         }
