@@ -1,6 +1,6 @@
 package com.example.company.controller;
 
-import com.example.company.service.RevenueService;
+import com.example.company.service.revenue.RevenueService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -100,7 +100,7 @@ INSERT INTO TeamRevenue (team, month, no_of_sales, budget, average_revenue) VALU
 ('SDMS', '2025-04', 8, 96000.00, 100000.00),
 ('SDMS', '2025-05', 6, 78000.00, 530000.00),
 ('SDMS', '2025-06', 10, 150000.00, 185000.00);
-
+select * from Users
 select * from TeamRevenue;
 SELECT * FROM TeamRevenue ORDER BY month ASC;
 SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Users';

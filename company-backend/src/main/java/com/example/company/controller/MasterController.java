@@ -1,6 +1,6 @@
 package com.example.company.controller;
 
-import com.example.company.service.MasterService;
+import com.example.company.service.master.MasterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.Map;
