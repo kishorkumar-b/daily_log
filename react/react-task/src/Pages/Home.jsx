@@ -52,8 +52,6 @@ export default function Home({ user, setUser }) {
     />
   </>
 )}
-
-
       </div>
     </div>
   );

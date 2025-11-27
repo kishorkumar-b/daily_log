@@ -54,6 +54,7 @@ export default function Login({ setUser, setPendingUser }) {
       } else if (res.data.status === "success") {
         setUser({
           username: res.data.username,
+          full_name: res.data.full_name, 
           role: res.data.role,
           team: res.data.team,
         });

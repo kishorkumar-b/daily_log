@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaUserCircle } from "react-icons/fa";
 import ProfileModal from "./ProfileModal";
@@ -12,12 +12,31 @@ export default function Header({
   setShowProfile
 }) {
   const [showDropdown, setShowDropdown] = useState(false);
+  const dropdownRef = useRef(null);   // ⬅️ Reference for outside click
   const navigate = useNavigate();
 
   const handleLogout = () => {
     setUser(null);
     navigate("/", { replace: true });
   };
+
+  // 🟢 CLOSE DROPDOWN ON OUTSIDE CLICK
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target)
+      ) {
+        setShowDropdown(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <header
@@ -26,7 +45,7 @@ export default function Header({
     >
       <h1 className="text-xl font-semibold text-gray-800">{title}</h1>
 
-      <div className="relative">
+      <div className="relative" ref={dropdownRef}>
         <button
           onClick={() => setShowDropdown(!showDropdown)}
           className="flex items-center space-x-2 text-gray-800 hover:text-blue-500 focus:outline-none"
@@ -44,7 +63,7 @@ export default function Header({
                 setShowDropdown(false);
               }}
             >
-              Change Password
+              Profile
             </button>
 
             <button
@@ -60,8 +79,8 @@ export default function Header({
       {showProfile && (
         <ProfileModal
           username={user.username}
-          onClose={() => setShowProfile(false)}       // CLOSE MODAL
-          onSaved={() => setShowProfile(false)}      // CLOSE AFTER SAVE
+          fullName={user.full_name}
+          onClose={() => setShowProfile(false)}
         />
       )}
     </header>
