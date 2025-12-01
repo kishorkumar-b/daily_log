@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import api from "../../api/axiosConfig";
+import {api} from "../../api/axiosConfig";
 
 export default function UpdateEmployeeModal({ employee, onClose, onSuccess }) {
   const [editData, setEditData] = useState({ ...employee });

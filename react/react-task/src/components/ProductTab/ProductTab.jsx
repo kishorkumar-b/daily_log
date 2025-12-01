@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import api from "../../api/axiosConfig";
+import {api} from "../../api/axiosConfig";
 import UpdateProductModal from "./UpdateProductModal";
 import DeleteProductModal from "./DeleteProductModal";
 import PopupMessage from "../common/PopupMessage"; // Adjust the path if needed

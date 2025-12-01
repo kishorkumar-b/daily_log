@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import api from "../api/axiosConfig";
+import {api} from "../api/axiosConfig";
 import PopupMessage from "../components/common/PopupMessage";
 
 export default function Login({ setUser, setPendingUser }) {

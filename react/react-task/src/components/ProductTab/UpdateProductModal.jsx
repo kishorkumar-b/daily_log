@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import api from "../../api/axiosConfig";
+import {api} from "../../api/axiosConfig";
 
 export default function UpdateProductModal({ product, onClose, onSuccess }) {
   const [editData, setEditData] = useState({ ...product });

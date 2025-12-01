@@ -1,6 +1,7 @@
 import React from "react";
-import { MdSpaceDashboard } from "react-icons/md";     // NEW Dashboard Icon
-import { GiMasterOfArms } from "react-icons/gi";      // NEW Master Icon
+import { MdSpaceDashboard } from "react-icons/md";
+import { GiMasterOfArms } from "react-icons/gi";
+import { FaPhotoVideo } from "react-icons/fa";   // ✔ NEW MEDIA MANAGER ICON
 
 export default function SidebarLayout({ onSelect, selectedPage }) {
   const iconClass = (page) =>
@@ -13,6 +14,7 @@ export default function SidebarLayout({ onSelect, selectedPage }) {
   const tooltipData = {
     dashboard: { label: "Dashboard", icon: <MdSpaceDashboard className="mr-1" /> },
     master: { label: "Master", icon: <GiMasterOfArms className="mr-1" /> },
+    media: { label: "Media Manager", icon: <FaPhotoVideo className="mr-1" /> }, // ✔ NEW
   };
 
   const renderTooltip = (page) => (
@@ -28,9 +30,7 @@ export default function SidebarLayout({ onSelect, selectedPage }) {
     >
       {tooltipData[page].icon}
       {tooltipData[page].label}
-      <span
-        className="absolute -left-1 top-1/2 -translate-y-1/2 w-2 h-2 bg-blue-600 rotate-45"
-      ></span>
+      <span className="absolute -left-1 top-1/2 -translate-y-1/2 w-2 h-2 bg-blue-600 rotate-45"></span>
     </span>
   );
 
@@ -40,7 +40,6 @@ export default function SidebarLayout({ onSelect, selectedPage }) {
       flex flex-col items-center py-6 space-y-6 
       fixed top-0 left-0 h-full z-50"
     >
-
       {/* Dashboard */}
       <div className="relative group">
         <button
@@ -61,6 +60,17 @@ export default function SidebarLayout({ onSelect, selectedPage }) {
           <GiMasterOfArms />
         </button>
         {renderTooltip("master")}
+      </div>
+
+      {/* Media Manager - ✔ NEW */}
+      <div className="relative group">
+        <button
+          onClick={() => onSelect("media")}
+          className={iconClass("media")}
+        >
+          <FaPhotoVideo />
+        </button>
+        {renderTooltip("media")}
       </div>
     </div>
   );

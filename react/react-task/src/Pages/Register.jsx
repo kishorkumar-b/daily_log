@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import api from "../api/axiosConfig";
+import {api} from "../api/axiosConfig";
 import PopupMessage from "../components/common/PopupMessage"; // import your modal
 
 export default function Register() {

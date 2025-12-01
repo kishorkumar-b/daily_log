@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import api from "../../api/axiosConfig";
+import {api} from "../../api/axiosConfig";
 
 export default function TeamRevenueTab({ user }) {
   const getCurrentMonth = () => {

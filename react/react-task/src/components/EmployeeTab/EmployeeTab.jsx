@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import api from "../../api/axiosConfig";
+import {api} from "../../api/axiosConfig";
 import UpdateEmployeeModal from "./UpdateEmployeeModal";
 import DeleteEmployeeModal from "./DeleteEmployeeModal";
 import PopupMessage from "../common/PopupMessage"; // ✅ import the popup
