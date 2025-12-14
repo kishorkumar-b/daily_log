@@ -32,7 +32,7 @@ public class AuthService {
     public Map<String, Object> login(String username, String password, String status) {
         Map<String, Object> response = new HashMap<>();
         try {
-            String sql = "SELECT id, username, password, role, status, team FROM Users WHERE username = ?";
+            String sql = "SELECT id, username,full_name, password, role, status, team FROM Users WHERE username = ?";
             Map<String, Object> user = jdbcTemplate.queryForMap(sql, username);
 
             if (user.get("password") == null) {
@@ -45,6 +45,8 @@ public class AuthService {
             if (user.get("password").equals(password)) {
                 response.put("status", "success");
                 response.put("username", username);
+                response.put("full_name", user.get("full_name"));
+
                 response.put("role", user.get("role"));
                 response.put("active", user.get("status"));
                 response.put("team", user.get("team"));
@@ -107,4 +109,35 @@ public class AuthService {
             return "Error setting password";
         }
     }
+    public String changeUsername(String oldUsername, String newUsername) {
+        try {
+            // check if new username already exists
+            String checkSql = "SELECT COUNT(*) FROM Users WHERE username = ?";
+            Integer exists = jdbcTemplate.queryForObject(checkSql, Integer.class, newUsername);
+
+            if (exists != null && exists > 0) {
+                return "Username already taken ❌";
+            }
+
+            // update username
+            String updateSql = "UPDATE Users SET username = ? WHERE username = ?";
+            int updated = jdbcTemplate.update(updateSql, newUsername, oldUsername);
+
+            return updated > 0 ? "Username updated successfully ✅" : "User not found";
+        } catch (Exception e) {
+            return "Error updating username ❌";
+        }
+    }
+    public String updateFullName(String username, String fullName) {
+        try {
+            String sql = "UPDATE Users SET full_name = ? WHERE username = ?";
+            int updated = jdbcTemplate.update(sql, fullName, username);
+            return updated > 0 ? "Full name updated" : "User not found";
+        } catch (Exception e) {
+            return "Error updating full name";
+        }
+    }
+
+
+
 }
