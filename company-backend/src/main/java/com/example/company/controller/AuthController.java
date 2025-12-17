@@ -1,12 +1,12 @@
 package com.example.company.controller;
 
-import com.example.company.service.AuthService;
+import com.example.company.service.auth.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RequestMapping("/auth")
 public class AuthController {
 
@@ -37,5 +37,38 @@ public class AuthController {
         String password = req.get("password");
         return authService.registerUser(username, password);
     }
+    /** 🔹 Change password for existing user */
+    @PostMapping("/changePassword")
+    public String changePassword(@RequestBody Map<String, String> req) {
+
+        // ❌ If UI tries to send a different username, block it
+        if (req.containsKey("newUsername")) {
+            return "Username cannot be changed ❌";
+        }
+
+        String username = req.get("username");
+        String newPassword = req.get("password");
+
+        return authService.changePassword(username, newPassword);
+    }
+    @PostMapping("/changeUsername")
+    public String changeUsername(@RequestBody Map<String, String> req) {
+
+        String oldUsername = req.get("oldUsername");
+        String newUsername = req.get("newUsername");
+
+        if (newUsername == null || newUsername.isBlank()) {
+            return "New username cannot be empty ❌";
+        }
+
+        return authService.changeUsername(oldUsername, newUsername);
+    }
+    @PostMapping("/updateFullName")
+    public String updateFullName(@RequestBody Map<String, String> req) {
+        return authService.updateFullName(req.get("username"), req.get("fullName"));
+    }
+
+
+
 
 }

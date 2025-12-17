@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import EmployeeTab from "../components/EmployeeTab";
-import ProductTab from "../components/ProductTab";
-import RevenueTab from "../components/RevenueTab";
+import EmployeeTab from "../components/EmployeeTab/EmployeeTab";
+import ProductTab from "../components/ProductTab/ProductTab";
+import RevenueTab from "../components/RevenueTab/RevenueTab";
 
 export default function Master({user}) {
   console.log("User in Master page:", user);
@@ -14,7 +14,7 @@ export default function Master({user}) {
   ];
 
   return (
-    <div className="p-4 bg-white rounded-md shadow-md">
+    <div className="p-4 pl-20 bg-white rounded-md shadow-md">
       {/* Tabs */}
       <div className="flex border-b border-gray-300 mb-4">
         {tabs.map((tab) => (

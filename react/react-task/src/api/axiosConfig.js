@@ -1,7 +1,16 @@
 import axios from "axios";
 
-const api = axios.create({
-  baseURL: "http://localhost:8080",
+// Base API
+export const api = axios.create({
+  baseURL: "http://localhost:8081",
 });
 
-export default api;
+// Image API
+export const imageApi = axios.create({
+  baseURL: "http://localhost:8081/api/image",
+});
+
+// Video API
+export const videoApi = axios.create({
+  baseURL: "http://localhost:8081/api/videos",
+});

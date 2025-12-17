@@ -1,13 +1,13 @@
 package com.example.company.controller;
 
-import com.example.company.service.MasterService;
+import com.example.company.service.master.MasterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
 @RequestMapping("/master")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class MasterController {
 
     @Autowired
